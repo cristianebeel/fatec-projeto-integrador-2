@@ -21,7 +21,7 @@
             <!--Slide 3-->
             <input class="carousel-open" type="radio" id="carousel-3" name="carousel" aria-hidden="true" hidden="" />
             <div class="carousel-item absolute opacity-0" style="height:55vh;">
-                <div class="car-banner-03 h-full w-full flex items-center justify-center">Arte & Pintura</div>
+                <div class="car-banner-03 h-full w-full flex items-center justify-center">Artes & Pintura</div>
             </div>
             <label for="carousel-2" class="prev control-3 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-white rounded-full bg-white hover:bg-pink-400 leading-tight text-center z-10 inset-y-0 left-0 my-auto">‹</label>
             <label for="carousel-1" class="next control-3 w-10 h-10 mr-2 md:mr-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-white rounded-full bg-white hover:bg-pink-400 leading-tight text-center z-10 inset-y-0 right-0 my-auto">›</label>
