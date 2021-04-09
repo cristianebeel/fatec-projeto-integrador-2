@@ -10,13 +10,13 @@
             <label for="email">E-mail</label>
             <input type="email" name="email" id="email" placeholder="Seu e-mail" required />
 
-            <label for="subject">Assunto</label>
+            <!-- <label for="subject">Assunto</label>
             <select id="subject" name="subject" required>
                 <option value="a" selected disabled>Selecione uma opção</option>
                 <option>Sugestão</option>
                 <option>Dúvida</option>
                 <option>Reclamação</option>
-            </select>
+            </select> -->
 
             <label for="message">Sua mensagem</label>
             <textarea rows="5" name="message" id="message" placeholder="Escreva sua mensagem" required></textarea>
