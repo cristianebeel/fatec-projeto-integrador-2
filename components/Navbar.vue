@@ -6,7 +6,7 @@
                 <div class="flex space-x-40 py-2">
                     <nuxt-link to="/" class="link">Escolar</nuxt-link>
                     <nuxt-link to="/escritorio" class="link">Escritório</nuxt-link>
-                    <nuxt-link to="/artes-e-pintura" class="link">Artes e Papelaria</nuxt-link>
+                    <nuxt-link to="/artes-e-pintura" class="link">Artes e Pintura</nuxt-link>
                     <nuxt-link to="/contato" class="link">Contato</nuxt-link>
                 </div>
             </div>
