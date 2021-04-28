@@ -1,6 +1,6 @@
 <template>
 <section id="main">
-  <Carousel />
+  <Carousel/>
   <Cards />
 
 </section>
