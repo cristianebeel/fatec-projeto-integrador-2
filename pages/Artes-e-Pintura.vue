@@ -105,7 +105,7 @@
                   <a href="http://localhost:3000/" target="_blank">
                   <img src="~/assets/img/cat/brushes09.jpg" alt="" class="rounded-3xl relative">
                   <p class="mb-3 p-4 w-full shadow-outline text-xl tracking-wide text-base text-shadow text-teal-800 font-bold">
-                  Brushes CIS<br>Preço  R$ 36,00</p></a>
+                  Brushes CIS<br>Preço  R$ 29,40</p></a>
                 </div>
                 </div>
 
@@ -114,25 +114,25 @@
                   <a href="http://localhost:3000/" target="_blank">
                   <img src="~/assets/img/cat/pastel-stabilo.jpg" alt="" class="rounded-3xl relative">
                   <p class="mb-3 p-4 w-full shadow-outline text-xl tracking-wide text-base text-shadow text-teal-800 font-bold">
-                  Kit Marca Texto<br>Preço  R$ 24,00</p></a>
+                  Kit Marca Texto<br>Preço  R$ 79,80</p></a>
                 </div>
                 </div>
 
             <div class="col-span-1 py-6 m-2">
                   <div class="relative">
                   <a href="http://localhost:3000/" target="_blank">
-                  <img src="~/assets/img/cat/pencil3.jpg" alt="" class="rounded-3x1 relative">
+                  <img src="~/assets/img/cat/pastelfaber.jpg" alt="" class="rounded-3x1 relative">
                   <p class="mb-3 p-4 w-full shadow-outline text-xl tracking-wide text-base text-shadow text-teal-800 font-bold">
-                  Lápis Colorido Aquarelável<br>Preço  R$ 28,00</p></a>
+                  Giz Pastel Seco <br>Preço  R$ 308,00</p></a>
                 </div>
                 </div>
 
             <div class="col-span-1 py-6 m-2">
                   <div class="relative">
                   <a href="http://localhost:3000/" target="_blank">
-                  <img src="~/assets/img/cat/maletaorganizadora.jpg" alt="" class="rounded-3x1 relative">
+                  <img src="~/assets/img/cat/kitcolor3.webp" alt="" class="rounded-3x1 relative">
                   <p class="mb-3 p-4 w-full shadow-outline text-xl tracking-wide text-base text-shadow text-teal-800 font-bold">
-                  Maleta<br>Preço  R$ 28,00</p></a>
+                  Kit canetas color<br>Preço  R$ 198,00</p></a>
                 </div>
                 </div>
 
@@ -141,25 +141,25 @@
                   <a href="http://localhost:3000/" target="_blank">
                   <img src="~/assets/img/cat/posca.jpg" alt="" class="rounded-3xl relative">
                   <p class="mb-3 p-4 w-full shadow-outline text-xl tracking-wide text-base text-shadow text-teal-800 font-bold">
-                  Canetas Posca<br>Preço  R$ 40,00</p></a>
+                  Canetas Posca<br>Preço  R$ 470,00</p></a>
                 </div>
                 </div>
 
                 <div class="col-span-1 py-6 m-2">
                   <div class="relative">
                   <a href="http://localhost:3000/" target="_blank">
-                  <img src="~/assets/img/cat/lettering.png" alt="" class="rounded-3xl relative">
+                  <img src="~/assets/img/cat/lettering.jpg" alt="" class="rounded-3xl relative">
                   <p class="mb-3 p-4 w-full shadow-outline text-xl tracking-wide text-base text-shadow text-teal-800 font-bold">
-                   Book Lettering<br>Preço  R$ 27,50</p></a>
+                   Bloco Lettering<br>Preço  R$ 27,50</p></a>
                 </div>
                 </div>
 
                 <div class="col-span-1 py-6 m-2">
                   <div class="relative">
                   <a href="http://localhost:3000/" target="_blank">
-                  <img src="~/assets/img/cat/caligrafia.jpg" alt="" class="rounded-3xl relative">
+                  <img src="~/assets/img/cat/vidacriativa2.jpg" alt="" class="rounded-3xl relative">
                   <p class="mb-3 p-4 w-full shadow-outline text-xl tracking-wide text-base text-shadow text-teal-800 font-bold">
-                  Book Caligrafia<br>Preço  R$ 31,00</p></a>
+                 Bloco Planner<br>Preço  R$ 27,50</p></a>
                 </div>
                 </div>
 
@@ -222,7 +222,7 @@
                   <a href="http://localhost:3000/" target="_blank">
                   <img src="~/assets/img/cat/lapiseira01.webp" alt="" class="rounded-3xl relative">
                   <p class="mb-3 p-4 w-full shadow-outline text-xl tracking-wide text-base text-shadow text-teal-800 font-bold">
-                  Lapiseira e porta grafite<br>Preço  R$ 18,00</p></a>
+                  Lapiseira e porta grafite<br>Preço  R$ 9,90</p></a>
                 </div>
                 </div>
 
@@ -231,7 +231,7 @@
                   <a href="http://localhost:3000/" target="_blank">
                   <img src="~/assets/img/cat/lapiseira02.webp" alt="" class="rounded-3xl relative">
                   <p class="mb-3 p-4 w-full shadow-outline text-xl tracking-wide text-base text-shadow text-teal-800 font-bold">
-                  Lapiseira<br>Preço  R$ 18,00</p></a>
+                  Lapiseira<br>Preço  R$ 11,60</p></a>
                 </div>
                 </div>
 
@@ -240,7 +240,7 @@
                   <a href="http://localhost:3000/" target="_blank">
                   <img src="~/assets/img/cat/lapiseira03.jpg" alt="" class="rounded-3xl relative">
                   <p class="mb-3 p-4 w-full shadow-outline text-xl tracking-wide text-base text-shadow text-teal-800 font-bold">
-                  Lapiseira<br>Preço  R$ 18,00</p></a>
+                  Lapiseira<br>Preço  R$ 10,00</p></a>
                 </div>
                 </div>
 
@@ -258,25 +258,25 @@
                   <a href="http://localhost:3000/" target="_blank">
                   <img src="~/assets/img/cat/oilpastel.png" alt="" class="rounded-3xl relative">
                   <p class="mb-3 p-4 w-full shadow-outline text-xl tracking-wide text-base text-shadow text-teal-800 font-bold">
-                  Pastel/Oleoso<br>Preço  R$ 18,00</p></a>
+                  Pastel/Oleoso<br>Preço  R$ 56,00</p></a>
                 </div>
                 </div>
 
                 <div class="col-span-1 py-6 m-2">
                   <div class="relative">
                   <a href="http://localhost:3000/" target="_blank">
-                  <img src="~/assets/img/cat/aquarelavel61cores.jpg" alt="" class="rounded-3xl relative">
+                  <img src="~/assets/img/cat/aquarelavel60cores.jpg" alt="" class="rounded-3xl relative">
                   <p class="mb-3 p-4 w-full shadow-outline text-xl tracking-wide text-base text-shadow text-teal-800 font-bold">
-                  Lápis Colorido <br>Preço  R$ 18,00</p></a>
+                  Lápis Aquarela <br>Preço  R$ 18,00</p></a>
                 </div>
                 </div>
 
                 <div class="col-span-1 py-6 m-2">
                   <div class="relative">
                   <a href="http://localhost:3000/" target="_blank">
-                  <img src="~/assets/img/cat/aquarelavel.jpg" alt="" class="rounded-3xl relative">
+                  <img src="~/assets/img/cat/polychromos.jpg" alt="" class="rounded-3xl relative">
                   <p class="mb-3 p-4 w-full shadow-outline text-xl tracking-wide text-base text-shadow text-teal-800 font-bold">
-                  Lápis Colorido <br>Preço  R$ 18,00</p></a>
+                  Lápis Colorido <br>Preço  R$ 468,00</p></a>
                 </div>
                 </div>
 
@@ -311,6 +311,24 @@
                   <div class="relative">
                   <a href="http://localhost:3000/" target="_blank">
                   <img src="~/assets/img/cat/colorpen2.jpg" alt="" class="rounded-3xl relative">
+                  <p class="mb-3 p-4 w-full shadow-outline text-xl tracking-wide text-base text-shadow text-teal-800 font-bold">
+                  Canetas color<br>Preço  R$ 42,00</p></a>
+                </div>
+                </div>
+
+ <div class="col-span-1 py-6 m-2">
+                  <div class="relative">
+                  <a href="http://localhost:3000/" target="_blank">
+                  <img src="~/assets/img/cat/guachefaber.jpg" alt="" class="rounded-3xl relative">
+                  <p class="mb-3 p-4 w-full shadow-outline text-xl tracking-wide text-base text-shadow text-teal-800 font-bold">
+                 Guache Faber<br>Preço  R$ 18,00</p></a>
+                </div>
+                </div>
+
+                 <div class="col-span-1 py-6 m-2">
+                  <div class="relative">
+                  <a href="http://localhost:3000/" target="_blank">
+                  <img src="~/assets/img/cat/pastel.webp" alt="" class="rounded-3xl relative">
                   <p class="mb-3 p-4 w-full shadow-outline text-xl tracking-wide text-base text-shadow text-teal-800 font-bold">
                   Canetas color<br>Preço  R$ 18,00</p></a>
                 </div>

@@ -13,7 +13,7 @@
       </div>
       <!-- body -->
       <div>
-        <img src="~assets/img/cat/organizador3.jpg" alt="image1" class="w-full h-48 object-cover mb-2">
+        <img src="~assets/img/cat/organizador1.jpg" alt="image1" class="w-full h-48 object-cover mb-2">
         <p class="mb-3 bg-red-100 font-bold tracking-wide text-base ">
           Kit organizador para seu escritório.
         </p>
@@ -46,7 +46,8 @@
       </div>
       <!-- body -->
       <div>
-        <img src="~assets/img/cat/organizador1.jpg" alt="image3" class="w-full h-48 object-cover mb-2">
+        <img src="~assets/img/cat/organizador3.jpg" alt="image1" class="w-full h-48 object-cover mb-2">
+        .jpg" alt="image3" class="w-full h-48 object-cover mb-2">
         <p class="mb-3 bg-red-100 font-bold tracking-wide text-base ">
           Organizador de canetas.
         </p>

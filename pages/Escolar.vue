@@ -20,7 +20,7 @@
                 <div id="slider-1" class="mx-auto">
                     <div class="bg-cover bg-center w-auto h-auto py-24 px-10 object-fill" style="background-image: url(https://cdn.pixabay.com/photo/2014/03/12/18/45/boys-286245_960_720.jpg)">
                         <div class="md: h-1/2 w-1">
-                        <p class=" text-3xl text-purple-900 text-right text-sm uppercase font-bold">Volta às aulas? </p>
+                        <p class=" text-3xl text-purple-900  text-sm uppercase font-bold">Volta às aulas...</p>
                         </div>
                         </div> <!-- container -->
                         <br>
@@ -28,22 +28,22 @@
 
                 <div id="slider-2" class=" mx-auto">
                     <div class="bg-cover bg-center w-auto  h-auto  py-24 px-10 object-fill" style="background-image:url(https://cdn.pixabay.com/photo/2017/10/10/00/03/kids-2835430_960_720.jpg)">
-                    <p class=" text-3xl text-purple-900 text-justify text-sm uppercase font-bold">Só na Romapel.</p>
-                    <p class="text-2xl text-purple-800 text-justify font-bold mb-10 leading-none">A volta às aulas nunca foi tão divertida...</p>
+                    <p class=" text-3xl text-purple-900 text-sm uppercase font-bold">É com a Romapel.</p>
+                    <p class="text-2xl text-purple-800  font-bold mb-10 leading-none">A volta às aulas nunca foi tão divertida.</p>
                         <a href="http:/http://localhost:3000/Contato//" target="_blank" class="bg-purple-600 py-4 px-8 text-center text-white font-extrabold uppercase text-xs text-center rounded hover:bg-pink-200 hover:text-pink-800">Contato</a>
                     </div> <!-- container -->
                     <br>
                 </div>
             </div>
 
-<br>
+            <br>
             <div  class="flex justify-between w-12 mx-auto pb-2 ">
                 <button id="sButton1" onclick="sliderButton1()" class="bg-purple-400 rounded-full w-4 pb-2 " ></button>
                 <button id="sButton2" onclick="sliderButton2()" class="bg-purple-400 rounded-full w-4 p-2"></button>
             </div>
-<br>
+            <br>
 
-        </div>
+           </div>
 
 
 

@@ -5,15 +5,15 @@
             <!--Slide 1-->
             <input class="carousel-open" type="radio" id="carousel-1" name="carousel" aria-hidden="true" hidden="" checked="checked" />
             <div class="carousel-item absolute opacity-0" style="height:55vh;">
-                <div class="car-banner-01 h-full w-full flex items-center justify-center">Materiais Escolares</div>
+                <div class="car-banner-01  h-full w-full flex items-center justify-center">Materiais Escolares</div>
             </div>
-            <label for="carousel-3" class="prev control-1 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-white rounded-full bg-white hover:bg-pink-400 leading-tight text-center z-10 inset-y-0 left-0 my-auto">‹</label>
+            <label for="carousel-4" class="prev control-1 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-white rounded-full bg-white hover:bg-pink-400 leading-tight text-center z-10 inset-y-0 left-0 my-auto">‹</label>
             <label for="carousel-2" class="next control-1 w-10 h-10 mr-2 md:mr-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-white rounded-full bg-white hover:bg-pink-400 leading-tight text-center z-10 inset-y-0 right-0 my-auto">›</label>
 
             <!--Slide 2-->
             <input class="carousel-open" type="radio" id="carousel-2" name="carousel" aria-hidden="true" hidden="" />
             <div class="carousel-item absolute opacity-0" style="height:55vh;">
-                <div class="car-banner-02 h-full w-full flex items-center justify-center">Suprimentos para Escritório</div>
+                <div class="car-banner-02  h-full w-full flex items-center justify-center">Suprimentos para Escritório</div>
             </div>
             <label for="carousel-1" class="prev control-2 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-white rounded-full bg-white hover:bg-pink-400 leading-tight text-center z-10 inset-y-0 left-0 my-auto">‹</label>
             <label for="carousel-3" class="next control-2 w-10 h-10 mr-2 md:mr-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-white rounded-full bg-white hover:bg-pink-400 leading-tight text-center z-10 inset-y-0 right-0 my-auto">›</label>
@@ -21,12 +21,20 @@
             <!--Slide 3-->
             <input class="carousel-open" type="radio" id="carousel-3" name="carousel" aria-hidden="true" hidden="" />
             <div class="carousel-item absolute opacity-0" style="height:55vh;">
-                <div class="car-banner-03 h-full w-full flex items-center justify-center">Artes & Pintura</div>
+                <div class="car-banner-03  h-full w-full flex items-center justify-center">Artes & Pintura</div>
             </div>
             <label for="carousel-2" class="prev control-3 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-white rounded-full bg-white hover:bg-pink-400 leading-tight text-center z-10 inset-y-0 left-0 my-auto">‹</label>
-            <label for="carousel-1" class="next control-3 w-10 h-10 mr-2 md:mr-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-white rounded-full bg-white hover:bg-pink-400 leading-tight text-center z-10 inset-y-0 right-0 my-auto">›</label>
+            <label for="carousel-4" class="next control-3 w-10 h-10 mr-2 md:mr-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-white rounded-full bg-white hover:bg-pink-400 leading-tight text-center z-10 inset-y-0 right-0 my-auto">›</label>
 
+            <!--Slide 4-->
+            <input class="carousel-open" type="radio" id="carousel-4" name="carousel" aria-hidden="true" hidden="" />
+            <div class="carousel-item absolute opacity-0" style="height:55vh;">
+                <div class="car-banner-04  h-full w-full flex items-center justify-center">Contato</div>
+            </div>
+            <label for="carousel-3" class="prev control-4 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-white rounded-full bg-white hover:bg-pink-400 leading-tight text-center z-10 inset-y-0 left-0 my-auto">‹</label>
+            <label for="carousel-1" class="next control-4 w-10 h-10 mr-2 md:mr-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-white rounded-full bg-white hover:bg-pink-400 leading-tight text-center z-10 inset-y-0 right-0 my-auto">›</label>
             <!-- Add additional indicators for each slide-->
+
             <ol class="carousel-indicators">
                 <li class="inline-block mr-3">
                 <label for="carousel-1" class="carousel-bullet cursor-pointer block text-4xl text-gray-400">•</label>
@@ -36,6 +44,9 @@
                 </li>
                 <li class="inline-block mr-3">
                 <label for="carousel-3" class="carousel-bullet cursor-pointer block text-4xl text-gray-400">•</label>
+                </li>
+                <li class="inline-block mr-3">
+                <label for="carousel-4" class="carousel-bullet cursor-pointer block text-4xl text-gray-400">•</label>
                 </li>
             </ol>
             </div>
@@ -60,7 +71,8 @@
 
 #carousel-1:checked ~ .control-1,
 #carousel-2:checked ~ .control-2,
-#carousel-3:checked ~ .control-3 {
+#carousel-3:checked ~ .control-3,
+#carousel-4:checked ~ .control-4 {
     display: block;
 }
 
@@ -82,7 +94,8 @@
 
 #carousel-1:checked ~ .control-1 ~ .carousel-indicators li:nth-child(1) .carousel-bullet,
 #carousel-2:checked ~ .control-2 ~ .carousel-indicators li:nth-child(2) .carousel-bullet,
-#carousel-3:checked ~ .control-3 ~ .carousel-indicators li:nth-child(3) .carousel-bullet {
+#carousel-3:checked ~ .control-3 ~ .carousel-indicators li:nth-child(3) .carousel-bullet
+#carousel-4:checked ~ .control-4 ~ .carousel-indicators li:nth-child(4) .carousel-bullet {
     @apply text-pink-300;
 }
 
@@ -98,7 +111,10 @@
     background-image: url(../assets/img/banner-03.jpg);
 }
 
-.car-banner-01, .car-banner-02, .car-banner-03{
+.car-banner-04{
+    background-image: url(../assets/img/banner-04.jpg);
+}
+.car-banner-01, .car-banner-02, .car-banner-03, .car-banner-04{
     background-size: 100%  auto;
     background-position: center;
     font-size: 4.5rem;
