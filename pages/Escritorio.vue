@@ -13,7 +13,7 @@
       </div>
       <!-- body -->
       <div>
-        <img src="~assets/img/cat/organizador3.jpg" alt="image1" class="w-full h-48 object-cover mb-2">
+        <img src="~assets/img/cat/organizador1.jpg" alt="image1" class="w-full h-48 object-cover mb-2">
         <p class="mb-3 bg-red-100 font-bold tracking-wide text-base ">
           Kit organizador para seu escritório.
         </p>
@@ -46,7 +46,8 @@
       </div>
       <!-- body -->
       <div>
-        <img src="~assets/img/cat/organizador1.jpg" alt="image3" class="w-full h-48 object-cover mb-2">
+        <img src="~assets/img/cat/organizador3.jpg" alt="image1" class="w-full h-48 object-cover mb-2">
+        .jpg" alt="image3" class="w-full h-48 object-cover mb-2">
         <p class="mb-3 bg-red-100 font-bold tracking-wide text-base ">
           Organizador de canetas.
         </p>
@@ -112,9 +113,9 @@
       </div>
       <!-- body -->
       <div>
-        <img src="~assets/img/cat/fichário.jpg" alt="image1" class="w-full h-48 object-cover mb-2">
+        <img src="~assets/img/cat/pasta1.jpg" alt="image1" class="w-full h-48 object-cover mb-2">
         <p class="mb-3 bg-red-100 font-bold tracking-wide text-base ">
-          Fichário argolado para documentos.
+          Pastas para guardar documentos.
         </p>
         <button class="backdrop bg-white bg-opacity-0 border border-white font-bold px-3 py-1.5 rounded focus:outline-none focus:ring-2 focus:ring-white focus:ring-opacity-40 hover:bg-opacity-10 text-lg">
          Preço -  R$ 25,00
@@ -128,9 +129,9 @@
       </div>
       <!-- body -->
       <div>
-        <img src="~assets/img/cat/fichário1.jpg" alt="image2" class="w-full h-48 object-cover mb-2">
+        <img src="~assets/img/cat/envelopeskraft.webp" alt="image2" class="w-full h-48 object-cover mb-2">
         <p class="mb-3 bg-red-100 font-bold tracking-wide text-base ">
-        Fichário argolado para documentos.
+        Envelopes de papel kraft.
         </p>
         <button class="backdrop bg-white bg-opacity-0 border border-white font-bold px-3 py-1.5 rounded focus:outline-none focus:ring-2 focus:ring-white focus:ring-opacity-40 hover:bg-opacity-10 text-lg">
          Preço - R$ 18,00
@@ -161,9 +162,9 @@
       </div>
       <!-- body -->
       <div>
-        <img src="~assets/img/cat/suporte.jpg" alt="image1" class="w-full h-48 object-cover mb-2">
+        <img src="~assets/img/cat/organizador-documentos.webp" alt="image1" class="w-full h-48 object-cover mb-2">
         <p class="mb-3 bg-red-100 font-bold tracking-wide text-base ">
-          Suporte para lápis e canetas.
+          Organizador de mesa.
         </p>
         <button class="backdrop bg-white bg-opacity-0 border border-white font-bold px-3 py-1.5 rounded focus:outline-none focus:ring-2 focus:ring-white focus:ring-opacity-40 hover:bg-opacity-10 text-lg">
          Preço -  R$ 13,00
@@ -178,7 +179,7 @@
       </div>
       <!-- body -->
       <div>
-        <img src="~assets/img/cat/chamex2.jpg" alt="image2" class="w-full h-48 object-cover mb-2">
+        <img src="~assets/img/cat/Chamex.png" alt="image2" class="w-full h-48 object-cover mb-2">
         <p class="mb-3 bg-red-100 font-bold tracking-wide text-base ">
           Papel Sulfite A4/500 Folhas OFFICE
         </p>
@@ -195,7 +196,7 @@
       </div>
       <!-- body -->
       <div>
-        <img src="~assets/img/cat/canetas.jpg" alt="image3" class="w-full h-48 object-cover mb-2">
+        <img src="~assets/img/cat/pens.jpg" alt="image3" class="w-full h-48 object-cover mb-2">
        <p class="mb-3 bg-red-100 font-bold tracking-wide text-base ">
       Canetas em cores sortidas.
         </p>
@@ -205,14 +206,164 @@
       </div>
     </div>
 
+<div class="backdrop w-10/12 md:w-1/4 bg-red-100 bg-opacity-10 rounded p-3 text-teal-900 border border-white shadow-lg">
+      <!-- header -->
+      <div class="w-full mb-3 pb-3 border-b border-1 border-white">
+        <h3 class="text-xl font-bold bg-red-300">Planner </h3>
+      </div>
+      <!-- body -->
+      <div>
+        <img src="~assets/img/cat/planner01.jpg" alt="image3" class="w-full h-48 object-cover mb-2">
+       <p class="mb-3 bg-red-100 font-bold tracking-wide text-base ">
+      Planner.
+        </p>
+        <button class="backdrop bg-white bg-opacity-0 border border-white font-bold px-3 py-1.5 rounded focus:outline-none focus:ring-2 focus:ring-white focus:ring-opacity-40 hover:bg-opacity-10 text-lg">
+          Preço -  R$ 6,50
+        </button>
+      </div>
+    </div>
 
-  </div>
+<div class="backdrop w-10/12 md:w-1/4 bg-red-100 bg-opacity-10 rounded p-3 text-teal-900 border border-white shadow-lg">
+      <!-- header -->
+      <div class="w-full mb-3 pb-3 border-b border-1 border-white">
+        <h3 class="text-xl font-bold bg-red-300">Planner </h3>
+      </div>
+      <!-- body -->
+      <div>
+        <img src="~assets/img/cat/planner02.jpg" alt="image3" class="w-full h-48 object-cover mb-2">
+       <p class="mb-3 bg-red-100 font-bold tracking-wide text-base ">
+    Planner.
+        </p>
+        <button class="backdrop bg-white bg-opacity-0 border border-white font-bold px-3 py-1.5 rounded focus:outline-none focus:ring-2 focus:ring-white focus:ring-opacity-40 hover:bg-opacity-10 text-lg">
+          Preço -  R$ 6,50
+        </button>
+      </div>
+    </div>
+
+<div class="backdrop w-10/12 md:w-1/4 bg-red-100 bg-opacity-10 rounded p-3 text-teal-900 border border-white shadow-lg">
+      <!-- header -->
+      <div class="w-full mb-3 pb-3 border-b border-1 border-white">
+        <h3 class="text-xl font-bold bg-red-300">Planner </h3>
+      </div>
+      <!-- body -->
+      <div>
+        <img src="~assets/img/cat/planner03.jpg" alt="image3" class="w-full h-48 object-cover mb-2">
+       <p class="mb-3 bg-red-100 font-bold tracking-wide text-base ">
+      Planner.
+        </p>
+        <button class="backdrop bg-white bg-opacity-0 border border-white font-bold px-3 py-1.5 rounded focus:outline-none focus:ring-2 focus:ring-white focus:ring-opacity-40 hover:bg-opacity-10 text-lg">
+          Preço -  R$ 6,50
+        </button>
+      </div>
+    </div>
+
+<div class="backdrop w-10/12 md:w-1/4 bg-red-100 bg-opacity-10 rounded p-3 text-teal-900 border border-white shadow-lg">
+      <!-- header -->
+      <div class="w-full mb-3 pb-3 border-b border-1 border-white">
+        <h3 class="text-xl font-bold bg-red-300">Planner </h3>
+      </div>
+      <!-- body -->
+      <div>
+        <img src="~assets/img/cat/planner04.jpg" alt="image3" class="w-full h-48 object-cover mb-2">
+       <p class="mb-3 bg-red-100 font-bold tracking-wide text-base ">
+      Planner.
+        </p>
+        <button class="backdrop bg-white bg-opacity-0 border border-white font-bold px-3 py-1.5 rounded focus:outline-none focus:ring-2 focus:ring-white focus:ring-opacity-40 hover:bg-opacity-10 text-lg">
+          Preço -  R$ 6,50
+        </button>
+      </div>
+    </div>
+
+<div class="backdrop w-10/12 md:w-1/4 bg-red-100 bg-opacity-10 rounded p-3 text-teal-900 border border-white shadow-lg">
+      <!-- header -->
+      <div class="w-full mb-3 pb-3 border-b border-1 border-white">
+        <h3 class="text-xl font-bold bg-red-300">Planner </h3>
+      </div>
+      <!-- body -->
+      <div>
+        <img src="~assets/img/cat/planner07.jpg" alt="image3" class="w-full h-48 object-cover mb-2">
+       <p class="mb-3 bg-red-100 font-bold tracking-wide text-base ">
+      Planner.
+        </p>
+        <button class="backdrop bg-white bg-opacity-0 border border-white font-bold px-3 py-1.5 rounded focus:outline-none focus:ring-2 focus:ring-white focus:ring-opacity-40 hover:bg-opacity-10 text-lg">
+          Preço -  R$ 6,50
+        </button>
+      </div>
+    </div>
+
+<div class="backdrop w-10/12 md:w-1/4 bg-red-100 bg-opacity-10 rounded p-3 text-teal-900 border border-white shadow-lg">
+      <!-- header -->
+      <div class="w-full mb-3 pb-3 border-b border-1 border-white">
+        <h3 class="text-xl font-bold bg-red-300">Planner </h3>
+      </div>
+      <!-- body -->
+      <div>
+        <img src="~assets/img/cat/planner08.jpg" alt="image3" class="w-full h-48 object-cover mb-2">
+       <p class="mb-3 bg-red-100 font-bold tracking-wide text-base ">
+      Planner.
+        </p>
+        <button class="backdrop bg-white bg-opacity-0 border border-white font-bold px-3 py-1.5 rounded focus:outline-none focus:ring-2 focus:ring-white focus:ring-opacity-40 hover:bg-opacity-10 text-lg">
+          Preço -  R$ 6,50
+        </button>
+      </div>
+    </div>
+
+    <div class="backdrop w-10/12 md:w-1/4 bg-red-100 bg-opacity-10 rounded p-3 text-teal-900 border border-white shadow-lg">
+      <!-- header -->
+      <div class="w-full mb-3 pb-3 border-b border-1 border-white">
+        <h3 class="text-xl font-bold bg-red-300">Planner </h3>
+      </div>
+      <!-- body -->
+      <div>
+        <img src="~assets/img/cat/planner09.jpg" alt="image3" class="w-full h-48 object-cover mb-2">
+       <p class="mb-3 bg-red-100 font-bold tracking-wide text-base ">
+      Planner.
+        </p>
+        <button class="backdrop bg-white bg-opacity-0 border border-white font-bold px-3 py-1.5 rounded focus:outline-none focus:ring-2 focus:ring-white focus:ring-opacity-40 hover:bg-opacity-10 text-lg">
+          Preço -  R$ 6,50
+        </button>
+      </div>
+    </div>
+
+<div class="backdrop w-10/12 md:w-1/4 bg-red-100 bg-opacity-10 rounded p-3 text-teal-900 border border-white shadow-lg">
+      <!-- header -->
+      <div class="w-full mb-3 pb-3 border-b border-1 border-white">
+        <h3 class="text-xl font-bold bg-red-300">Lixeira </h3>
+      </div>
+      <!-- body -->
+      <div>
+        <img src="~assets/img/cat/lixeira1.jpg" alt="image3" class="w-full h-48 object-cover mb-2">
+       <p class="mb-3 bg-red-100 font-bold tracking-wide text-base ">
+     Lixeira.
+        </p>
+        <button class="backdrop bg-white bg-opacity-0 border border-white font-bold px-3 py-1.5 rounded focus:outline-none focus:ring-2 focus:ring-white focus:ring-opacity-40 hover:bg-opacity-10 text-lg">
+          Preço -  R$ 6,50
+        </button>
+      </div>
+    </div>
+
+<div class="backdrop w-10/12 md:w-1/4 bg-red-100 bg-opacity-10 rounded p-3 text-teal-900 border border-white shadow-lg">
+      <!-- header -->
+      <div class="w-full mb-3 pb-3 border-b border-1 border-white">
+        <h3 class="text-xl font-bold bg-red-300">Lixeiras </h3>
+      </div>
+      <!-- body -->
+      <div>
+        <img src="~assets/img/cat/lixeiras.webp" alt="image3" class="w-full h-48 object-cover mb-2">
+       <p class="mb-3 bg-red-100 font-bold tracking-wide text-base ">
+      Lixeiras coloridas.
+        </p>
+        <button class="backdrop bg-white bg-opacity-0 border border-white font-bold px-3 py-1.5 rounded focus:outline-none focus:ring-2 focus:ring-white focus:ring-opacity-40 hover:bg-opacity-10 text-lg">
+          Preço -  R$ 6,50
+        </button>
+      </div>
+    </div>
 
 
+
+</div>
 </section>
-
 </template>
-
 <style>
     .bg-image {
       background-image: url(https://cdn.pixabay.com/photo/2017/05/11/11/15/workplace-2303851_960_720.jpg);
@@ -226,4 +377,5 @@
       text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
     }
   </style>
+
 

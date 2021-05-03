@@ -52,16 +52,13 @@
     max-width: 55vw;
     margin: 0 auto;
 }
-
 .zoom-out:hover{
     cursor: pointer;
     transform: scale(1.05);
 }
-
 img{
     height: 16rem;
 }
-
 p{
     padding: 1.2rem;
     font-size: 1.5rem;
