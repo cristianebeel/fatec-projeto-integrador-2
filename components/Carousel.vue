@@ -10,8 +10,8 @@
                         <p>Materiais Escolares</p>
                     </div>
                 </div>
-                <label for="carousel-4" class="prev control-1 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-white rounded-full bg-white hover:bg-pink-400 leading-tight text-center z-10 inset-y-0 left-0 my-auto">‹</label>
-                <label for="carousel-2" class="next control-1 w-10 h-10 mr-2 md:mr-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-white rounded-full bg-white hover:bg-pink-400 leading-tight text-center z-10 inset-y-0 right-0 my-auto">›</label>
+                <label for="carousel-4" class="prev control-1 ml-2 md:ml-10 flex justify-center absolute cursor-pointer hidden font-bold text-black hover:text-white rounded-full bg-white hover:bg-pink-400 leading-tight text-center z-10 inset-y-0 left-0 my-auto"></label>
+                <label for="carousel-2" class="next control-1 mr-2 md:mr-10 flex justify-center absolute cursor-pointer hidden font-bold text-black hover:text-white rounded-full bg-white hover:bg-pink-400 leading-tight text-center z-10 inset-y-0 right-0 my-auto"></label>
 
                 <!--Slide 2-->
                 <input class="carousel-open" type="radio" id="carousel-2" name="carousel" aria-hidden="true" hidden="" />
@@ -20,8 +20,8 @@
                         <p>Suprimentos para Escritório</p>
                     </div>
                 </div>
-                <label for="carousel-1" class="prev control-2 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-white rounded-full bg-white hover:bg-pink-400 leading-tight text-center z-10 inset-y-0 left-0 my-auto">‹</label>
-                <label for="carousel-3" class="next control-2 w-10 h-10 mr-2 md:mr-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-white rounded-full bg-white hover:bg-pink-400 leading-tight text-center z-10 inset-y-0 right-0 my-auto">›</label>
+                <label for="carousel-1" class="prev control-2 ml-2 md:ml-10 flex justify-center absolute cursor-pointer hidden font-bold text-black hover:text-white rounded-full bg-white hover:bg-pink-400 leading-tight text-center z-10 inset-y-0 left-0 my-auto"></label>
+                <label for="carousel-3" class="next control-2 mr-2 md:mr-10 flex justify-center absolute cursor-pointer hidden font-bold text-black hover:text-white rounded-full bg-white hover:bg-pink-400 leading-tight text-center z-10 inset-y-0 right-0 my-auto"></label>
 
                 <!--Slide 3-->
                 <input class="carousel-open" type="radio" id="carousel-3" name="carousel" aria-hidden="true" hidden="" />
@@ -30,8 +30,8 @@
                         <p>Artes & Pintura</p>
                     </div>
                 </div>
-                <label for="carousel-2" class="prev control-3 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-white rounded-full bg-white hover:bg-pink-400 leading-tight text-center z-10 inset-y-0 left-0 my-auto">‹</label>
-                <label for="carousel-4" class="next control-3 w-10 h-10 mr-2 md:mr-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-white rounded-full bg-white hover:bg-pink-400 leading-tight text-center z-10 inset-y-0 right-0 my-auto">›</label>
+                <label for="carousel-2" class="prev control-3 ml-2 md:ml-10 flex justify-center absolute cursor-pointer hidden font-bold text-black hover:text-white rounded-full bg-white hover:bg-pink-400 leading-tight text-center z-10 inset-y-0 left-0 my-auto"></label>
+                <label for="carousel-4" class="next control-3 mr-2 md:mr-10 flex justify-center absolute cursor-pointer hidden font-bold text-black hover:text-white rounded-full bg-white hover:bg-pink-400 leading-tight text-center z-10 inset-y-0 right-0 my-auto"></label>
 
                 <!--Slide 4-->
                 <input class="carousel-open" type="radio" id="carousel-4" name="carousel" aria-hidden="true" hidden="" />
@@ -40,21 +40,21 @@
                         <p>Contato</p>
                     </div>
                 </div>
-                <label for="carousel-3" class="prev control-4 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-white rounded-full bg-white hover:bg-pink-400 leading-tight text-center z-10 inset-y-0 left-0 my-auto">‹</label>
-                <label for="carousel-1" class="next control-4 w-10 h-10 mr-2 md:mr-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-white rounded-full bg-white hover:bg-pink-400 leading-tight text-center z-10 inset-y-0 right-0 my-auto">›</label>
+                <label for="carousel-3" class="prev control-4 ml-2 md:ml-10 flex justify-center absolute cursor-pointer hidden font-bold text-black hover:text-white rounded-full bg-white hover:bg-pink-400 leading-tight text-center z-10 inset-y-0 left-0 my-auto"></label>
+                <label for="carousel-1" class="next control-4 mr-2 md:mr-10 flex justify-center absolute cursor-pointer hidden font-bold text-black hover:text-white rounded-full bg-white hover:bg-pink-400 leading-tight text-center z-10 inset-y-0 right-0 my-auto"></label>
                 
                 <ol class="carousel-indicators">
                     <li class="inline-block mr-3">
-                        <label for="carousel-1" class="carousel-bullet cursor-pointer block text-xl md:text-2xl lg:text-4xl xl:text-5xl text-gray-400">•</label>
+                        <label for="carousel-1" class="carousel-bullet cursor-pointer block text-2xl md:text-3xl lg:text-4xl xl:text-5xl text-gray-400">•</label>
                     </li>
                     <li class="inline-block mr-3">
-                        <label for="carousel-2" class="carousel-bullet cursor-pointer block text-xl md:text-2xl lg:text-4xl xl:text-5xl text-gray-400">•</label>
+                        <label for="carousel-2" class="carousel-bullet cursor-pointer block text-2xl md:text-3xl lg:text-4xl xl:text-5xl text-gray-400">•</label>
                     </li>
                     <li class="inline-block mr-3">
-                        <label for="carousel-3" class="carousel-bullet cursor-pointer block text-xl md:text-2xl lg:text-4xl xl:text-5xl text-gray-400">•</label>
+                        <label for="carousel-3" class="carousel-bullet cursor-pointer block text-2xl md:text-3xl lg:text-4xl xl:text-5xl text-gray-400">•</label>
                     </li>
                     <li class="inline-block mr-3">
-                        <label for="carousel-4" class="carousel-bullet cursor-pointer block text-xl md:text-2xl lg:text-4xl xl:text-5xl text-gray-400">•</label>
+                        <label for="carousel-4" class="carousel-bullet cursor-pointer block text-2xl md:text-3xl lg:text-4xl xl:text-5xl text-gray-400">•</label>
                     </li>
                 </ol>
             </div>
@@ -69,7 +69,7 @@
 }
 
 .carousel-item {
-    height: 35vh;
+    height: 30vh;
     -webkit-transition: opacity 0.6s ease-out;
     transition: opacity 0.6s ease-out;
 }
@@ -124,7 +124,7 @@
     background-image: url(~/assets/img/banners/banner-04.jpg);
 }
 .car-banner-01, .car-banner-02, .car-banner-03, .car-banner-04 {
-    background-size: 100% auto;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -141,26 +141,63 @@
     justify-content: center;
     background-color: #fefefe;
     width: 100%;
-    font-size: 1.2rem;
-    margin-bottom: 2.25rem;
-    padding: .2rem;
+    font-size: .8rem;
+    margin-bottom: 2.5rem;
+    padding: .1rem;
     color: #262626;
     box-shadow: 0 .05rem .2rem #c4c4c4;
 }
 
+.next{
+    background: url('~/assets/img/next.svg') no-repeat center;
+}
+
+.prev{
+    background: url('~/assets/img/prev.svg') no-repeat center;
+}
+
+.next, .prev{
+    width: 1.5rem;
+    height: 1.5rem;
+    border: .02rem #282828 solid;
+    position: absolute;
+    bottom: 2rem;
+    background-size: 20%;
+    background-color: #fff;
+}
+
+.next:active, .prev:active,
+.next:focus, .prev:focus,
+.next:hover, .prev:hover{
+    @apply bg-pink-200;
+    @apply border-gray-500;
+}
+
 @media(min-width: 768px){
     .carousel-item {
-        height: 60vh;
+        height: 40vh;
     }
 
     .car-banner-01 p, .car-banner-02 p, .car-banner-03 p, .car-banner-04 p{
-        font-size: 1.4rem;
+        font-size: 1.2rem;
+        margin-bottom: 2.5rem;
+    }
+
+    .next, .prev{
+        width: 2.2rem;
+        height: 2.2rem;
+        font-size: 1.5rem;
     }
 }
 
 @media(min-width: 1024px){
+    .carousel-item{
+        height: 50vh;
+    }
+
     .car-banner-01 p, .car-banner-02 p, .car-banner-03 p, .car-banner-04 p{
-        margin-bottom: 2.7rem;
+        font-size: 1.5rem;
+        margin-bottom: 2.5em;
         padding: .5rem;
     }
 }
@@ -168,7 +205,26 @@
 @media(min-width:1280px){
     .car-banner-01 p, .car-banner-02 p, .car-banner-03 p, .car-banner-04 p{
         font-size: 2rem;
-        margin-bottom: 3.5rem;
+        margin-bottom: 4rem;
+    }
+
+    .next, .prev{
+        width: 2.5rem;
+        height: 2.5rem;
+        font-size: 1.5rem;
+    }
+}
+
+@media(min-width:1920px){
+    .car-banner-01 p, .car-banner-02 p, .car-banner-03 p, .car-banner-04 p{
+        font-size: 2.5rem;
+        margin-bottom: 4.5rem;
+    }
+
+    .next, .prev{
+        width: 3rem;
+        height: 3rem;
+        font-size: 1.5rem;
     }
 }
 </style>

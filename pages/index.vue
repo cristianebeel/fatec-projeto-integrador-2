@@ -1,3 +1,5 @@
 <template>
-<Carousel />
+<div>
+    <Carousel />
+</div>
 </template>
