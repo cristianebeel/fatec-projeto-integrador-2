@@ -218,7 +218,7 @@
       Planner.
         </p>
         <button class="backdrop bg-white bg-opacity-0 border border-white font-bold px-3 py-1.5 rounded focus:outline-none focus:ring-2 focus:ring-white focus:ring-opacity-40 hover:bg-opacity-10 text-lg">
-          Preço -  R$ 6,50
+          Preço -  R$ 36,50
         </button>
       </div>
     </div>
@@ -235,7 +235,7 @@
     Planner.
         </p>
         <button class="backdrop bg-white bg-opacity-0 border border-white font-bold px-3 py-1.5 rounded focus:outline-none focus:ring-2 focus:ring-white focus:ring-opacity-40 hover:bg-opacity-10 text-lg">
-          Preço -  R$ 6,50
+          Preço -  R$ 28,00
         </button>
       </div>
     </div>
@@ -252,7 +252,7 @@
       Planner.
         </p>
         <button class="backdrop bg-white bg-opacity-0 border border-white font-bold px-3 py-1.5 rounded focus:outline-none focus:ring-2 focus:ring-white focus:ring-opacity-40 hover:bg-opacity-10 text-lg">
-          Preço -  R$ 6,50
+          Preço -  R$ 26,80
         </button>
       </div>
     </div>
@@ -269,7 +269,7 @@
       Planner.
         </p>
         <button class="backdrop bg-white bg-opacity-0 border border-white font-bold px-3 py-1.5 rounded focus:outline-none focus:ring-2 focus:ring-white focus:ring-opacity-40 hover:bg-opacity-10 text-lg">
-          Preço -  R$ 6,50
+          Preço -  R$ 32,80
         </button>
       </div>
     </div>
@@ -286,7 +286,7 @@
       Planner.
         </p>
         <button class="backdrop bg-white bg-opacity-0 border border-white font-bold px-3 py-1.5 rounded focus:outline-none focus:ring-2 focus:ring-white focus:ring-opacity-40 hover:bg-opacity-10 text-lg">
-          Preço -  R$ 6,50
+          Preço -  R$ 29,60
         </button>
       </div>
     </div>
@@ -303,7 +303,7 @@
       Planner.
         </p>
         <button class="backdrop bg-white bg-opacity-0 border border-white font-bold px-3 py-1.5 rounded focus:outline-none focus:ring-2 focus:ring-white focus:ring-opacity-40 hover:bg-opacity-10 text-lg">
-          Preço -  R$ 6,50
+          Preço -  R$ 27,40
         </button>
       </div>
     </div>
@@ -320,7 +320,7 @@
       Planner.
         </p>
         <button class="backdrop bg-white bg-opacity-0 border border-white font-bold px-3 py-1.5 rounded focus:outline-none focus:ring-2 focus:ring-white focus:ring-opacity-40 hover:bg-opacity-10 text-lg">
-          Preço -  R$ 6,50
+          Preço -  R$ 28,90
         </button>
       </div>
     </div>
@@ -337,7 +337,7 @@
      Lixeira.
         </p>
         <button class="backdrop bg-white bg-opacity-0 border border-white font-bold px-3 py-1.5 rounded focus:outline-none focus:ring-2 focus:ring-white focus:ring-opacity-40 hover:bg-opacity-10 text-lg">
-          Preço -  R$ 6,50
+          Preço -  R$ 16,50
         </button>
       </div>
     </div>
@@ -354,7 +354,7 @@
       Lixeiras coloridas.
         </p>
         <button class="backdrop bg-white bg-opacity-0 border border-white font-bold px-3 py-1.5 rounded focus:outline-none focus:ring-2 focus:ring-white focus:ring-opacity-40 hover:bg-opacity-10 text-lg">
-          Preço -  R$ 6,50
+          Preço -  R$ 14,50
         </button>
       </div>
     </div>
