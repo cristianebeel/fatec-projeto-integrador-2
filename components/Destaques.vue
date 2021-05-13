@@ -8,7 +8,7 @@
                 :nome="item.nome"
             />
         </div>
-        <div class="hidden md:flex mx-auto w-11/12 overflow-x-auto lg:w-full">
+        <div class="hidden md:flex mx-auto w-11/12 overflow-x-auto overflow-y-visible lg:w-full">
             <div class="hidden md:flex flex-row justify-between gap-3 lg:mx-auto">
                 <Card-Destaque
                     v-for="item of destaques"
@@ -21,17 +21,6 @@
         </div>
     </div>
 </template>
-
-<style scoped>
-    #button{
-        @media(min-width: 480px){
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            grid-template-rows: 1fr 1fr;
-            
-        }
-    }
-</style>
 
 <script>
 import { mapState } from 'vuex'
