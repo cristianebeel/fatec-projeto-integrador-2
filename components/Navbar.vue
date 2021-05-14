@@ -1,10 +1,9 @@
 <template>
-    <section id="navbar shadow-2xl">
-        <nav class="text-white text-2xl p-2">
-            <div class="flex justify-around items-center pr-10 py-0">
-                <nuxt-link to="/"><Logo /></nuxt-link>
-                <div class="flex space-x-40 py-2">
-                    <nuxt-link to="/" class="link">Escolar</nuxt-link>
+    <section id="navbar" class="navbar shadow-xl">
+        <nav class="text-white text-base">
+            <div class="hidden md:flex flex-row py-3 justify-around items-center">
+                <div class="space-x-10 lg:space-x-30 xl:space-x-40">
+                    <nuxt-link to="/Escolar" class="link">Escolar</nuxt-link>
                     <nuxt-link to="/Escritorio" class="link">Escritório</nuxt-link>
                     <nuxt-link to="/Artes-e-Pintura" class="link">Artes e Pintura</nuxt-link>
                     <nuxt-link to="/contato" class="link">Contato</nuxt-link>
@@ -27,5 +26,3 @@ nav img{
     text-decoration: underline;
 }
 </style>
-
-

@@ -1,7 +1,6 @@
 <template>
-<section id="main">
-  <Carousel/>
-  <Cards />
-
-</section>
+<div>
+    <Carousel />
+    <Section-Destaques />
+</div>
 </template>
