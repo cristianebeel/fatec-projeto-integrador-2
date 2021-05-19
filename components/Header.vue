@@ -1,12 +1,12 @@
 <template>
-    <header class="navbar p-2 mx-auto text-white text-base 2xl:max-w-screen">
-        <div class="flex flex-row justify-around items-center">
-            <div class="md:hidden">Menu</div>
+    <header class="navbar py-4 mx-auto text-white text-base 2xl:max-w-screen">
+        <div class="flex flex-row justify-evenly items-center">
+            <div class="md:hidden"><img src="~/assets/img/menu-hamburger.svg" alt="Menu" class="h-5"></div>
             <nuxt-link to="/"><Logo /></nuxt-link>
-            <div class="space-x-4 md:flex md:flex-row md:space-x-7">
-                <nuxt-link to="/">Fale conosco</nuxt-link>
-                <nuxt-link to="/">Desejados</nuxt-link>
-                <nuxt-link to="/">Sacola</nuxt-link>
+            <div class="flex flex-row">
+                <nuxt-link to="/"><img src="~/assets/img/contact.svg" alt="Fale conosco" class="h-5"></nuxt-link>
+                <nuxt-link to="/"><img src="~/assets/img/heart.svg" alt="Minha lista" class="h-5"></nuxt-link>
+                <nuxt-link to="/"><img src="~/assets/img/cart.svg" alt="Minha sacola" class="h-5"></nuxt-link>
             </div>
         </div>
     </header>
@@ -18,7 +18,7 @@ header{
 }
 
 header img{
-    width: 5rem;
+    width: 3rem;
 }
 </style>
 
