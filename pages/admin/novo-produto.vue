@@ -3,11 +3,16 @@
         <span v-if="waiting" class="mt-6">Aguarde...</span>
         <template v-else>
             <form class="p-8 flex flex-col gap-3 w-full" @submit.prevent="addProduct">
-                <input v-model="title" type="text" placeholder="Título" class="w-full">
-                <input v-model="price" type="text" placeholder="Preço" class="w-1/3">
-                <select v-model="category">
-                    <option value="" selected="selected" disabled
-                        classs="w-1/2">Selecione uma categoria</option>
+                <input v-model="title" type="text" placeholder="Título">
+                <input v-model="price" type="text" placeholder="Preço">
+                <select v-model="category" name="category" multiple>
+                    <option value="" disabled>Categoria(s)</option>
+                    <option value="escolar">Escolar</option>
+                    <option value="escritorio">Escritório</option>
+                    <option value="arte">Artes e Pintura</option>
+                </select>
+                <select v-model="subcategory" name="subcategory">
+                    <option value="" disabled selected>Subcategoria</option>
                     <option value="agenda">Agenda</option>
                     <option value="escrita">Escrita</option>
                     <option value="estojo">Estojo</option>
@@ -17,7 +22,6 @@
                     <option value="planner">Planner</option>
                 </select>
                 <input type="file" id="upload">
-                <textarea v-model="description" type="text" rows="5" placeholder="Descrição" />
                 <div class="flex justify-end gap-4 mx-1">
                     <button type="reset" class="py-2 px-6 text-white bg-red-500 rounded-md
                         hover:bg-red-600 focus:bg-red-700 focus:outline-none"
@@ -49,19 +53,27 @@ input, select, textarea{
 import io from 'socket.io-client'
 
 export default {
+    name: 'novo-produto',
+    props: {
+        categoria: {
+            type: String,
+            default: ''
+        }
+    },
+
     data(){
         return{
             waiting: false,
             title: '',
             price: '',
             category: '',
-            description: '',
+            subcategory: '',
             products: []
         }
     },
 
     mounted(){
-        const socket = io('http://localhost:8080')
+        const socket = io('https://fatec-herois-resistencia.herokuapp.com')
 
         socket.on('product-created', created => {
             this.products.push(created)
@@ -71,9 +83,9 @@ export default {
     async fetch(){
         try{
             this.waiting = true
-            this.products = await this.$axios.$get('http://localhost:8080/products')
+            this.products = await this.$axios.$get('https://fatec-herois-resistencia.herokuapp.com/products')
         }catch{
-            alert('Ops! Parece que deu erro...')
+            alert('Ops! Erro de conexão.')
         }finally{
             this.waiting = false
         }
@@ -84,14 +96,14 @@ export default {
             try{
                 this.waiting = true
                 const image = `~/assets/img/produtos/${upload.files[0].name}`
-                const product = { title: this.title, price: this.price, description: this.description,
-                    category: this.category, image: image }
+                const product = { title: this.title, price: this.price, category: this.category,
+                    subcategory: this.subcategory,  image: image }
 
-                await this.$axios.$post(`http://localhost:8080/products`, product)
+                await this.$axios.$post(`https://fatec-herois-resistencia.herokuapp.com/products`, product)
                 this.title = ''
                 this.price = ''
                 this.category = ''
-                this.description = ''
+                this.subcategory = ''
             }catch{
                 alert('Erro ao cadastrar produto.')
             }finally{
