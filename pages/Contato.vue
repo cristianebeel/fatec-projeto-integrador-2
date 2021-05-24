@@ -1,7 +1,7 @@
 <template>
 <section id="main">
   <Carousel />
-<Sobre />
+
 
 <section id="main" class="mx-10 mb-10">
         <h1 class="my-3 text-3xl font-semibold text-gray-800 dark:text-gray-200">Contato</h1>

@@ -5,11 +5,12 @@
 </section>
   <Sobre />
 
-<footer class="bg-red-300 w-full h-40 py-2 px-4 my-32 ">
-        <div class="px-4 pt-3 pb-4 border-b -mx-4 ">
+<footer class="bg-red-300 w-full h-44 py-7 px-2 my-32 ">
+        <div class=" md:py-8 px-4 pt-3 pb-4 border-b -mx-4 ">
             <div class="max-w-xl mx-auto">
-                <h2 class="text-xl text-left inline-block font-semibold text-gray-900">Assine nossa Newsletter</h2>
-                <p class="text-gray-800 text-xs pl-px">
+              <br>
+                <h2 class="text-xl text-left inline-block font-semibold leading-8 text-gray-900">Assine nossa Newsletter</h2>
+                <p class="text-gray-900 text-xs font-semibold pl-px">
                    Últimas novidades enviadas diretamente para seu e-mail..
                 </p>
                 <form action="#" class="mt-2">
