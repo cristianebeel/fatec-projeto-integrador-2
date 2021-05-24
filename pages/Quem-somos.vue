@@ -21,10 +21,10 @@
                 </form>
             </div>
         </div>
-
-    </footer>
-
+</footer>
 </section>
+
+</template>
 
 
 
