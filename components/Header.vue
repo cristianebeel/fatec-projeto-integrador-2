@@ -18,7 +18,7 @@ header{
 }
 
 header img{
-    width: 5rem;
+    width: 8rem;
 }
 </style>
 

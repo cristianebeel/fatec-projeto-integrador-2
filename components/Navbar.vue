@@ -8,6 +8,7 @@
                     <nuxt-link to="/Escritorio" class="link">Escritório</nuxt-link>
                     <nuxt-link to="/Artes-e-Pintura" class="link">Artes e Pintura</nuxt-link>
                     <nuxt-link to="/contato" class="link">Contato</nuxt-link>
+                    <nuxt-link to="/Quem-somos" class="link">Quem somos</nuxt-link>
                 </div>
             </div>
         </nav>

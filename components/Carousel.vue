@@ -2,7 +2,7 @@
     <section id="slider">
         <div class="carousel relative shadow-xl">
             <div class="carousel-inner relative overflow-hidden w-full">
-            
+
                 <!--Slide 1-->
                 <input class="carousel-open" type="radio" id="carousel-1" name="carousel" aria-hidden="true" hidden="" checked="checked" />
                 <div class="carousel-item absolute opacity-0">
@@ -42,7 +42,7 @@
                 </div>
                 <label for="carousel-3" class="prev control-4 ml-2 md:ml-10 flex justify-center absolute cursor-pointer hidden font-bold text-black hover:text-white rounded-full bg-white hover:bg-pink-400 leading-tight text-center z-10 inset-y-0 left-0 my-auto"></label>
                 <label for="carousel-1" class="next control-4 mr-2 md:mr-10 flex justify-center absolute cursor-pointer hidden font-bold text-black hover:text-white rounded-full bg-white hover:bg-pink-400 leading-tight text-center z-10 inset-y-0 right-0 my-auto"></label>
-                
+
                 <ol class="carousel-indicators">
                     <li class="inline-block mr-3">
                         <label for="carousel-1" class="carousel-bullet cursor-pointer block text-2xl md:text-3xl lg:text-4xl xl:text-5xl text-gray-400">•</label>
