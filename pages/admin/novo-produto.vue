@@ -95,7 +95,7 @@ export default {
         async addProduct(){
             try{
                 this.waiting = true
-                const image = `~/assets/img/produtos/${upload.files[0].name}`
+                const image = upload.files[0].name
                 const product = { title: this.title, price: this.price, category: this.category,
                     subcategory: this.subcategory,  image: image }
 
