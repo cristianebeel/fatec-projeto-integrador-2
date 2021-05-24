@@ -11,7 +11,7 @@
               <br>
                 <h2 class="text-xl text-left inline-block font-semibold leading-8 text-gray-900">Assine nossa Newsletter</h2>
                 <p class="text-gray-900 text-xs font-semibold pl-px">
-                   Últimas novidades enviadas diretamente para seu e-mail..
+                   Últimas novidades enviadas diretamente para seu e-mail.
                 </p>
                 <form action="#" class="mt-2">
                     <div class="flex items-center">
