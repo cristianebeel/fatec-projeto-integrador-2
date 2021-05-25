@@ -7,6 +7,7 @@
                 <nuxt-link to="/">Fale conosco</nuxt-link>
                 <nuxt-link to="/">Desejados</nuxt-link>
                 <nuxt-link to="/">Sacola</nuxt-link>
+
             </div>
         </div>
     </header>

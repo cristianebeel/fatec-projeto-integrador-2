@@ -15,7 +15,7 @@
           Plastificação; Papéis Especiais; Tintas e Pincéis; Itens artesanais; Lembrancinhas e Brindes
           Personalizados; E muito mais...A Papelaria Roma é a sua Papelaria Online, com Material Escolar,
            Pintura e Escritório com bons preços e entrega para todo Brasil. Tudo o que você precisa para
-            seu Escritório, Consultório ou Home Office em um só lugar.</p>
+            seu Escritório, Consultório ou Home Office em um só lugar. </p>
   </div>
 </div>
 
