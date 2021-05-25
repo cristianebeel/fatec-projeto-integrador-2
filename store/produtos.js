@@ -1,121 +1,115 @@
 export const state = () => ({
     produtos: [
-        {titulo: 'Apontador c/ depósito', preco: '5,00', categoria: 'Escolar', subcategoria: 'Escrita', imagem: require('~/assets/img/produtos/apontador01.jpg')},
-
-        {titulo: 'Borracha neon', preco: '2,00', categoria: 'Escolar', subcategoria: 'Escrita', imagem: require('~/assets/img/produtos/borracha01.jpg')},
-
-        {titulo: 'Lápis de cor 12 cores + 6 cores neon', preco: '16,00', categoria: 'Escolar, Arte', subcategoria: 'Pintura', imagem: require('~/assets/img/produtos/lapiscor01.jpg')},
-
-        {titulo: 'Caneta dual brush c/ 6 tons de pele', preco: '22,00', categoria: 'Escolar', subcategoria: '', imagem: require('~/assets/img/produtos/brush01.jpg')},
-
-        {titulo: 'Estojo Mickey', preco: '11,40', categoria: 'Escolar', subcategoria: 'Estojo', imagem: require('~/assets/img/produtos/estojo01.jpg')},
-
-        {titulo: 'Estojo grande', preco: '14,00', categoria: 'Escolar', subcategoria: 'Estojo', imagem: require('~/assets/img/produtos/estojo03.jpg')},
-
-        {titulo: 'Estojo metálico', preco: '28,00', categoria: 'Escolar', subcategoria: 'Estojo', imagem: require('~/assets/img/produtos/estojo04.jpg')},
-        
-        
-        {titulo: 'Estojo color', preco: '13,00', categoria: 'Escolar', subcategoria: 'Estojo', imagem: require('~/assets/img/produtos/estojo02.jpg')},
-        
-        
-        {titulo: 'Folha EVA estampado', preco: '2,50', categoria: 'Escolar', subcategoria: 'Papel', imagem: require('~/assets/img/produtos/eva03.jpg')},
-        
-        
-        {titulo: 'Folha EVA glitter', preco: '2,80', categoria: 'Escolar', subcategoria: 'Papel', imagem: require('~/assets/img/produtos/eva02.jpg')},
-        
-        
-        {titulo: 'Folha EVA colorida', preco: '1,90', categoria: 'Escolar', subcategoria: 'Papel', imagem: require('~/assets/img/produtos/eva01.jpg')},
-        
-        
-        {titulo: 'Folha sulfite colorida', preco: '6,00', categoria: 'Escolar', subcategoria: 'Papel', imagem: require('~/assets/img/produtos/sulfite02.jpg')},
-        
-        
-        {titulo: 'Creative papers', preco: '7,00', categoria: 'Escolar', subcategoria: 'Papel', imagem: require('~/assets/img/produtos/creativepaper01.jpg')},
-        
-        
-        {titulo: 'Pastas L', preco: '1,50', categoria: 'Escolar, Escritorio', subcategoria: 'Organizacao', imagem: require('~/assets/img/produtos/pasta01.jpg')},
-        
-        
-        {titulo: 'Caderno univ. Alice 10 matérias', preco: '16,00', categoria: 'Escolar', subcategoria: 'Caderno', imagem: require('~/assets/img/produtos/caderno04.jpg')},
-        
-        
-        {titulo: 'Caderno univ. Flamingo 10 matérias', preco: '13,00', categoria: 'Escolar', subcategoria: 'Caderno', imagem: require('~/assets/img/produtos/caderno01.jpg')},
-        
-        
-        {titulo: 'Caderno univ. Flamingo 12 matérias', preco: '17,00', categoria: 'Escolar', subcategoria: 'Caderno', imagem: require('~/assets/img/produtos/caderno02.jpg')},
-        
-        
-        {titulo: 'Caderno univ. Summer 10 matérias', preco: '13,00', categoria: 'Escolar', subcategoria: 'Caderno', imagem: require('~/assets/img/produtos/caderno03.jpg')},
-        
-        
-        {titulo: 'Caderno univ. Teen Titans 10 matérias', preco: '16,00', categoria: 'Escolar', subcategoria: 'Caderno', imagem: require('~/assets/img/produtos/caderno07.jpg')},
-        
-        
-        {titulo: 'Caderno univ. Teen Titans 15 matérias', preco: '20,00', categoria: 'Escolar', subcategoria: 'Caderno', imagem: require('~/assets/img/produtos/caderno06.jpg')},
-        
-        
-        {titulo: 'Brochura Now United 80 folhas', preco: '15,00', categoria: 'Escolar', subcategoria: 'Caderno', imagem: require('~/assets/img/produtos/brochura01.jpg')},
-        
-        
-        {titulo: 'Caderno univ. Espaço 10 matérias', preco: '12,00', categoria: 'Escolar', subcategoria: 'Caderno', imagem: require('~/assets/img/produtos/caderno05.jpg')},
-        
-        
-        {titulo: 'Mochila Unicórnio', preco: '36,00', categoria: 'Escolar', subcategoria: 'Mochila', imagem: require('~/assets/img/produtos/mochila03.jpg')},
-        
-        
-        {titulo: 'Mochila blue cat', preco: '38,00', categoria: 'Escolar', subcategoria: 'Mochila', imagem: require('~/assets/img/produtos/mochila01.jpg')},
-        
-        
-        {titulo: 'Kit Mochila c/ lancheira', preco: '42,00', categoria: 'Escolar', subcategoria: 'Mochila', imagem: require('~/assets/img/produtos/mochila04.jpg')},
-        
-        
-        {titulo: 'Régua maleável colorida 30 cm', preco: '4,50', categoria: 'Escolar', subcategoria: 'Regua', imagem: require('~/assets/img/produtos/regua01.jpg')},
-        
-        
-        {titulo: 'Caderno de desenho Lhamazing', preco: '10,00', categoria: 'Escolar, Arte', subcategoria: 'Caderno', imagem: require('~/assets/img/produtos/desenho01.jpg')},
-        
-        
-        {titulo: 'Caderno de desenho Capricho', preco: '15,00', categoria: 'Escolar, Arte', subcategoria: 'Caderno', imagem: require('~/assets/img/produtos/desenho02.jpg')},
-        
-        
-        {titulo: 'Caderno cartografia / desenho', preco: '12,00', categoria: 'Escolar, Arte', subcategoria: 'Caderno', imagem: require('~/assets/img/produtos/cartografia01.jpg')},
-        
-        
-        {titulo: 'Caderno cartografia / desenho', preco: '10,00', categoria: 'Escolar, Arte', subcategoria: '', imagem: require('~/assets/img/produtos/cartografia02.jpg')}
-        
-
-
-
-
-
-
-
-
-
-       /*  {titulo: 'Organizador MDF', preco: '70,00', categoria: '', subcategoria: 'Organizacao', imagem: require('~/assets/img/produtos/organizador03.jpg')},
-        {titulo: 'Planner 2021 espiral neon', preco: '28,00', categoria: '', subcategoria: 'Planner', imagem: require('~/assets/img/produtos/planner02.jpg')},
-        {titulo: 'Planner 2021', preco: '28,90', categoria: '', subcategoria: 'Planner', imagem: require('~/assets/img/produtos/planner09.jpg')},
-        
-        {titulo: 'Envelope c/ botão', preco: '6,00', categoria: '', subcategoria: 'Diversos', imagem: require('~/assets/img/produtos/envelope03.jpg')},
-        {titulo: 'Corretivo caneta', preco: '5,98', categoria: 'Escolar, ', subcategoria: 'Escrita', imagem: require('~/assets/img/produtos/corretivo01.jpg')},
-        
-        {titulo: 'Conjunto de pastas finas c/ elástico', preco: '25,00', categoria: 'Escolar, ', subcategoria: 'Organizacao', imagem: require('~/assets/img/produtos/pasta02.jpg')},
-        {titulo: 'Pasta L', preco: '1,50', categoria: 'Escolar, ', subcategoria: 'Organizacao', imagem: require('~/assets/img/produtos/pasta01.jpg')},
-        {titulo: 'Lapiseira 0.7mm', preco: '10,00', categoria: 'Escolar, Arte', subcategoria: 'Escrita', imagem: require('~/assets/img/produtos/lapiseira03.jpg')},
-        {titulo: 'Kit c/ 3 lapiseiras 0.9mm', preco: '18,00', categoria: 'Escolar, Arte', subcategoria: 'Escrita', imagem: require('~/assets/img/produtos/lapiseira04.jpg')},
-        {titulo: 'Tesoura uso geral', preco: '12,00', categoria: 'Escolar, , Arte', subcategoria: 'Diversos', imagem: require('~/assets/img/produtos/tesoura01.jpg')},
-        {titulo: 'Kit Organizadores MDF', preco: '75,00', categoria: 'Escritorio', subcategoria: 'Organizacao', imagem: require('~/assets/img/produtos/organizador02.jpg')},
-        {titulo: '', preco: '', categoria: '', subcategoria: '', imagem: require('~/assets/img/produtos/giz01.jpg')},
-        {titulo: '', preco: '', categoria: '', subcategoria: '', imagem: require('~/assets/img/produtos/eva01.jpg')},
-        {titulo: '', preco: '', categoria: '', subcategoria: '', imagem: require('~/assets/img/produtos/organizador06.jpg')},
-        {titulo: '', preco: '', categoria: '', subcategoria: '', imagem: require('~/assets/img/produtos/lixeira01.jpg')},
-        {titulo: '', preco: '', categoria: '', subcategoria: '', imagem: require('~/assets/img/produtos/sulfite02.jpg')},
-        {titulo: '', preco: '', categoria: '', subcategoria: '', imagem: require('~/assets/img/produtos/caneta01.jpg')},
-        {titulo: '', preco: '', categoria: '', subcategoria: '', imagem: require('~/assets/img/produtos/regua02.jpg')},
-        {titulo: '', preco: '', categoria: '', subcategoria: '', imagem: require('~/assets/img/produtos/bloco01.jpg')},
-        {titulo: '', preco: '', categoria: '', subcategoria: '', imagem: require('~/assets/img/produtos/estojo04.jpg')},
-        {titulo: '', preco: '', categoria: '', subcategoria: '', imagem: require('~/assets/img/produtos/planner12.jpg')},
-        {titulo: '', preco: '', categoria: '', subcategoria: '', imagem: require('~/assets/img/produtos/lapiscor03.jpg')},
-        {titulo: '', preco: '', categoria: '', subcategoria: '', imagem: require('~/assets/img/produtos/')} */
+        {titulo: 'Organizador MDF', preco: '70,00', categoria: '', subcategoria: 'Organizacao', imagem: require('~/assets/img/produtos/organizador03.jpg')},
+{titulo: 'Planner 2021 espiral neon', preco: '28,00', categoria: 'Escolar, Escritorio', subcategoria: 'Planner', imagem: require('~/assets/img/produtos/planner02.jpg')},
+{titulo: 'Planner Big Dreams', preco: '28,90', categoria: 'Escritorio', subcategoria: 'Planner', imagem: require('~/assets/img/produtos/planner09.jpg')},
+{titulo: 'Mochila blue cat', preco: '38,00', categoria: 'Escolar', subcategoria: 'Mochila', imagem: require('~/assets/img/produtos/mochila01.jpg')},
+{titulo: 'Envelope c/ botão', preco: '6,00', categoria: '', subcategoria: 'Papelaria', imagem: require('~/assets/img/produtos/envelope03.jpg')},
+{titulo: 'Corretivo caneta', preco: '5,98', categoria: 'Escolar, ', subcategoria: 'Escrita', imagem: require('~/assets/img/produtos/corretivo01.jpg')},
+{titulo: 'Kit Mochila c/ lancheira', preco: '42,00', categoria: 'Escolar', subcategoria: 'Mochila', imagem: require('~/assets/img/produtos/mochila04.jpg')},
+{titulo: 'Pasta L', preco: '1,50', categoria: 'Escolar, ', subcategoria: 'Organizacao', imagem: require('~/assets/img/produtos/pasta01.jpg')},
+{titulo: 'Conjunto 6 pastas finas c/ elástico', preco: '25,00', categoria: 'Escolar, ', subcategoria: 'Organizacao', imagem: require('~/assets/img/produtos/pasta02.jpg')},
+{titulo: 'Pastas L', preco: '1,50', categoria: 'Escolar, Escritorio', subcategoria: 'Organizacao', imagem: require('~/assets/img/produtos/pasta01.jpg')},
+{titulo: 'Lapiseira 0.7mm + grafite', preco: '8,00', categoria: 'Escolar', subcategoria: 'Escrita', imagem: require('~/assets/img/produtos/lapiseira03.jpg')},
+{titulo: 'Kit c/ 3 lapiseiras 0.9mm', preco: '18,00', categoria: 'Escolar', subcategoria: 'Escrita', imagem: require('~/assets/img/produtos/lapiseira04.jpg')},
+{titulo: 'Tesoura uso geral', preco: '12,00', categoria: 'Escolar, , Arte', subcategoria: 'Papelaria', imagem: require('~/assets/img/produtos/tesoura01.jpg')},
+{titulo: 'Kit escritorio MDF marrom', preco: '75,00', categoria: 'Escritorio', subcategoria: 'Organizacao', imagem: require('~/assets/img/produtos/organizador02.jpg')},
+{titulo: 'Giz pastel seco 36 cores', preco: '42,00', categoria: 'Arte', subcategoria: 'Pintura', imagem: require('~/assets/img/produtos/giz01.jpg')},
+{titulo: 'Folha EVA colorida', preco: '1,90', categoria: 'Escolar', subcategoria: 'Papel', imagem: require('~/assets/img/produtos/eva01.jpg')},
+{titulo: 'Organizador p/ documentos', preco: '23,00', categoria: 'Escritorio', subcategoria: 'Organizacao', imagem: require('~/assets/img/produtos/organizador06.jpg')},
+{titulo: 'Lixeira p/ escritório', preco: '16,50', categoria: 'Escritorio', subcategoria: 'Lixeira', imagem: require('~/assets/img/produtos/lixeira01.jpg')},
+{titulo: 'Folha sulfite colorida', preco: '6,00', categoria: 'Escolar', subcategoria: 'Papel', imagem: require('~/assets/img/produtos/sulfite02.jpg')},
+{titulo: 'Canetas 0.3mm 42 cores', preco: '125,00', categoria: 'Escolar, Arte', subcategoria: 'Escrita, Pintura', imagem: require('~/assets/img/produtos/caneta01.jpg')},
+{titulo: 'Kit réguas', preco: '12,00', categoria: 'Escolar, Arte', subcategoria: 'Papelaria', imagem: require('~/assets/img/produtos/regua02.jpg')},
+{titulo: 'Bloco A4 p/ Planner e Bullet Journal', preco: '27,50', categoria: 'Arte', subcategoria: 'Planner, Papelaria', imagem: require('~/assets/img/produtos/bloco01.jpg')},
+{titulo: 'Estojo metálico', preco: '28,00', categoria: 'Escolar', subcategoria: 'Estojo', imagem: require('~/assets/img/produtos/estojo04.jpg')},
+{titulo: 'Planner mensal brochura', preco: '25,00', categoria: 'Escritorio', subcategoria: 'Planner', imagem: require('~/assets/img/produtos/planner12.jpg')},
+{titulo: 'Lápis de cor 36 cores', preco: '468,00', categoria: 'Escolar, Arte', subcategoria: 'Pintura', imagem: require('~/assets/img/produtos/lapiscor03.jpg')},
+{titulo: 'Kit caneta e marca texto 24 un', preco: '215,00', categoria: 'Escolar', subcategoria: 'Escrita', imagem: require('~/assets/img/produtos/kit10.jpg')},
+{titulo: 'Kit de pintura 30 itens', preco: '230,00', categoria: 'Arte', subcategoria: 'Pintura', imagem: require('~/assets/img/produtos/kit09.jpg')},
+{titulo: 'Kit escritório', preco: '42,00', categoria: 'Escolar, Escritorio', subcategoria: 'Diversos', imagem: require('~/assets/img/produtos/kit07.jpg')},
+{titulo: 'Caderno univ. Alice 10 matérias', preco: '16,00', categoria: 'Escolar', subcategoria: 'Caderno', imagem: require('~/assets/img/produtos/caderno04.jpg')},
+{titulo: 'Apontador 2 furos c/ depósito', preco: '3,50', categoria: 'Escolar', subcategoria: 'Papelaria', imagem: require('~/assets/img/produtos/apontador01.jpg')},
+{titulo: 'Borracha neon', preco: '6,50', categoria: 'Escolar', subcategoria: 'Escrita', imagem: require('~/assets/img/produtos/borracha02.jpg')},
+{titulo: 'Pasta sanfonada', preco: '23,20', categoria: 'Escolar, Escritorio', subcategoria: 'Organizacao', imagem: require('~/assets/img/produtos/pasta04.jpg')},
+{titulo: 'Planner 2021 capa dura', preco: '37,00', categoria: 'Escritorio', subcategoria: 'Planner', imagem: require('~/assets/img/produtos/planner10.jpg')},
+{titulo: 'Borracha limpa tipo', preco: '4,00', categoria: 'Arte', subcategoria: 'Escrita, Pintura', imagem: require('~/assets/img/produtos/limpatipo01.jpg')},
+{titulo: 'Planner Happy', preco: '27,40', categoria: 'Escolar, Escritorio', subcategoria: 'Planner', imagem: require('~/assets/img/produtos/planner08.jpg')},
+{titulo: 'Estojo Mickey', preco: '11,40', categoria: 'Escolar', subcategoria: 'Estojo', imagem: require('~/assets/img/produtos/estojo01.jpg')},
+{titulo: 'Organizador de mesa', preco: '17,00', categoria: 'Escritorio', subcategoria: 'Organizacao', imagem: require('~/assets/img/produtos/organizador01.jpg')},
+{titulo: 'Caderno de desenho Lhamazing', preco: '10,00', categoria: 'Escolar, Arte', subcategoria: 'Caderno', imagem: require('~/assets/img/produtos/desenho01.jpg')},
+{titulo: 'Planner Diz Aí', preco: '29,60', categoria: 'Escolar, Escritorio', subcategoria: 'Planner', imagem: require('~/assets/img/produtos/planner07.jpg')},
+{titulo: 'Canetas nanquim 12 un', preco: '18,00', categoria: 'Arte', subcategoria: 'Escrita, Pintura', imagem: require('~/assets/img/produtos/nanquim01.jpg')},
+{titulo: 'Fita corretiva', preco: '3,50', categoria: 'Escolar, Escritorio', subcategoria: 'Escrita', imagem: require('~/assets/img/produtos/corretivo02.jpg')},
+{titulo: 'Planner 2021 West Village', preco: '36,50', categoria: 'Escolar, Escritorio', subcategoria: 'Planner', imagem: require('~/assets/img/produtos/planner01.jpg')},
+{titulo: 'Bloco A4 p/ lettering 28 fls', preco: '27,50', categoria: 'Arte', subcategoria: 'Papelaria', imagem: require('~/assets/img/produtos/bloco04.png')},
+{titulo: 'Organizador para escritório', preco: '85,00', categoria: 'Escritorio', subcategoria: 'Organizacao', imagem: require('~/assets/img/produtos/organizador07.jpg')},
+{titulo: 'Pastas c/ trilho 7 un cores sortidas', preco: '14,30', categoria: 'Escritorio', subcategoria: 'Organizacao', imagem: require('~/assets/img/produtos/trilho01')},
+{titulo: 'Bloco A4 p/ lettering 28 fls', preco: '27,50', categoria: 'Arte', subcategoria: 'Papelaria', imagem: require('~/assets/img/produtos/bloco02.jpg')},
+{titulo: 'Caderno capa dura 96 fls', preco: '17,00', categoria: 'Escolar', subcategoria: 'Caderno', imagem: require('~/assets/img/produtos/caderno10.jpg')},
+{titulo: 'Creative papers', preco: '7,00', categoria: 'Escolar', subcategoria: 'Papel', imagem: require('~/assets/img/produtos/creativepaper01.jpg')},
+{titulo: 'Apontador 2 furos c/ borracha (un)', preco: '10,90', categoria: 'Escolar', subcategoria: 'Papelaria', imagem: require('~/assets/img/produtos/apontador02.jpg')},
+{titulo: 'Borracha cores sortidas (un)', preco: '6,80', categoria: 'Escolar', subcategoria: 'Escrita', imagem: require('~/assets/img/produtos/borracha01.jpg')},
+{titulo: 'Caderno univ. capa dura docinhos 200 fls', preco: '23,00', categoria: 'Escolar', subcategoria: 'Caderno', imagem: require('~/assets/img/produtos/caderno08.jpg')},
+{titulo: 'Giz pastel 36 cores', preco: '308,00', categoria: 'Arte', subcategoria: 'Pintura', imagem: require('~/assets/img/produtos/giz03.jpg')},
+{titulo: 'Brochura Now United capa dura 80 folhas', preco: '15,00', categoria: 'Escolar', subcategoria: 'Caderno', imagem: require('~/assets/img/produtos/brochura01.jpg')},
+{titulo: 'Caderno univ. Flamingo 12 matérias', preco: '17,00', categoria: 'Escolar', subcategoria: 'Caderno', imagem: require('~/assets/img/produtos/caderno02.jpg')},
+{titulo: 'Estojo grande', preco: '14,00', categoria: 'Escolar', subcategoria: 'Estojo', imagem: require('~/assets/img/produtos/estojo03.jpg')},
+{titulo: 'Caderno de desenho Capricho', preco: '15,00', categoria: 'Escolar, Arte', subcategoria: 'Caderno', imagem: require('~/assets/img/produtos/desenho02.jpg')},
+{titulo: 'Lápis de cor aquarelável 60 cores', preco: '82,50', categoria: 'Escolar, Arte', subcategoria: 'Pintura', imagem: require('~/assets/img/produtos/lapiscor07.jpg')}
+{titulo: 'Clips nº 2 cx 950 un', preco: '17,00', categoria: 'Escritorio', subcategoria: 'Papelaria', imagem: require('~/assets/img/produtos/clips01.jpg')},
+{titulo: 'Giz pastel oleoso 36 cores', preco: '56,00', categoria: 'Arte', subcategoria: 'Pintura', imagem: require('~/assets/img/produtos/giz02.jpg')},
+{titulo: 'Giz pastel Eco 12 cores', preco: '26,00', categoria: 'Arte', subcategoria: 'Pintura', imagem: require('~/assets/img/produtos/giz02.jpg')},
+{titulo: 'Lapiseira 0.7mm', preco: '18,00', categoria: 'Escolar, Escritorio', subcategoria: 'Escrita', imagem: require('~/assets/img/produtos/lapiseira02.jpg')},
+{titulo: 'Caderno univ. Flamingo 10 matérias', preco: '13,00', categoria: 'Escolar', subcategoria: 'Caderno', imagem: require('~/assets/img/produtos/caderno01.jpg')},
+{titulo: 'Dual Brush 6 tons de cinza', preco: '29,40', categoria: 'Escolar, Arte', subcategoria: 'Escrita, Pintura', imagem: require('~/assets/img/produtos/brush03.jpg')},
+{titulo: 'Brush aquarelável 12 cores', preco: '18,00', categoria: 'Escolar, Arte', subcategoria: 'Escrita, Pintura', imagem: require('~/assets/img/produtos/brush04.jpg')},
+{titulo: 'Caderno de desenho', preco: '7,00', categoria: 'Escolar', subcategoria: 'Caderno', imagem: require('~/assets/img/produtos/desenho03.jpg')},
+{titulo: 'Massinha de modelar', preco: '23,00', categoria: 'Escolar', subcategoria: 'Infantil', imagem: require('~/assets/img/produtos/massamodelar01.jpg')},
+{titulo: 'Régua maleável colorida 30 cm', preco: '4,50', categoria: 'Escolar', subcategoria: 'Regua', imagem: require('~/assets/img/produtos/regua01.jpg')},
+{titulo: 'Kit 05 canetas + 05 marca-texto', preco: '79,80', categoria: 'Escolar, Arte', subcategoria: 'Escrita', imagem: require('~/assets/img/produtos/kit11.jpg')},
+{titulo: 'Caderno de cartografia', preco: '12,00', categoria: 'Escolar, Arte', subcategoria: 'Caderno', imagem: require('~/assets/img/produtos/cartografia01.jpg')},
+{titulo: 'Caderno univ. Summer 10 matérias', preco: '13,00', categoria: 'Escolar', subcategoria: 'Caderno', imagem: require('~/assets/img/produtos/caderno03.jpg')},
+{titulo: 'Caderno de desenho Summer', preco: '15,00', categoria: 'Escolar', subcategoria: 'Caderno', imagem: require('~/assets/img/produtos/desenho04.jpg')},
+{titulo: 'Folha EVA glitter', prneoneco: '2,80', categoria: 'Escolar', subcategoria: 'Papel', imagem: require('~/assets/img/produtos/eva02.jpg')},
+{titulo: 'Aquarela', preco: '25,00', categoria: 'Arte', subcategoria: 'Pintura', imagem: require('~/assets/img/produtos/aquarela01.jpg')},
+{titulo: 'Tinta guache 12 cores', preco: '18,00', categoria: 'Escolar, Arte', subcategoria: 'Pintura', imagem: require('~/assets/img/produtos/tinta01.jpg')},
+{titulo: 'Lápis de cor 12 cores + 6 cores neon', preco: '24,00', categoria: 'Escolar, Arte', subcategoria: 'Pintura', imagem: require('~/assets/img/produtos/lapiscor01.jpg')},
+{titulo: 'Caderno de cartografia', preco: '10,00', categoria: 'Escolar, Arte', subcategoria: 'Caderno', imagem: require('~/assets/img/produtos/cartografia02.jpg')},
+{titulo: 'Papel sulfite A4 500 folhas', preco: '23,00', categoria: 'Escolar, Escritorio, Arte', subcategoria: 'Papelaria', imagem: require('~/assets/img/produtos/sulfite01.jpg')},
+{titulo: 'Láis de cor 36 cores', preco: '58,00', categoria: 'Escolar, Arte', subcategoria: 'Pintura', imagem: require('~/assets/img/produtos/lapiscor04.jpg')},
+{titulo: 'Dual Brush aquarelável 12 cores', preco: '22,00', categoria: 'Escolar, Arte', subcategoria: 'Escrita, Pintura', imagem: require('~/assets/img/produtos/brush02.jpg')},
+{titulo: 'Folha EVA estampado', preco: '2,50', categoria: 'Escolar', subcategoria: 'Papel', imagem: require('~/assets/img/produtos/eva03.jpg')},
+{titulo: 'Lápis de cor 128 cores', preco: '258,00', categoria: 'Escolar, Arte', subcategoria: 'Pintura', imagem: require('~/assets/img/produtos/lapiscor06.jpg')}
+{titulo: 'Kit Posca 4.5-5.5mm 15 cores', preco: '470,00', categoria: 'Arte', subcategoria: 'Escrita, Pintura', imagem: require('~/assets/img/produtos/posca01.jpg')},
+{titulo: 'Planner espiral 2021 Pooh', preco: '32,80', categoria: 'Escolar, Escritorio', subcategoria: 'Planner', imagem: require('~/assets/img/produtos/planner04.jpg')},
+{titulo: 'Kit escolar 24 peças', preco: '50,00', categoria: 'Escolar', subcategoria: 'Papelaria, Escrita', imagem: require('~/assets/img/produtos/kit06.jpg')},
+{titulo: 'Caneta dual brush c/ 6 tons de pele', preco: '22,00', categoria: 'Escolar', subcategoria: '', imagem: require('~/assets/img/produtos/brush01.jpg')},
+{titulo: 'Kit escolar 16 un', preco: '32,00', categoria: 'Escolar', subcategoria: 'Escrita, Pintura', imagem: require('~/assets/img/produtos/kit01.jpg')},
+{titulo: 'Kit pastel 20 unidades', preco: '38,00', categoria: 'Escolar', subcategoria: 'Escrita', imagem: require('~/assets/img/produtos/kit02.jpg')}
+{titulo: 'Caixa lápis grafite 144 un', preco: '130,00', categoria: 'Escolar', subcategoria: 'Escrita', imagem: require('~/assets/img/produtos/lapispreto01.jpg')},
+{titulo: 'Lápis de cor 24 cores', preco: '30,00', categoria: 'Escolar, Arte', subcategoria: 'Pintura', imagem: require('~/assets/img/produtos/lapiscor05.jpg')}
+{titulo: 'Pinceis variados (un)', preco: '10,00', categoria: 'Arte', subcategoria: 'Pintura', imagem: require('~/assets/img/produtos/pinceis01.jpg')},
+{titulo: 'Caixa correspondência articulada', preco: '13,00', categoria: 'Escritorio', subcategoria: 'Organizacao', imagem: require('~/assets/img/produtos/organizador04.jpg')},
+{titulo: 'Caneta dual tip 10 cores', preco: '12,50', categoria: 'Escolar, Arte', subcategoria: 'Escrita', imagem: require('~/assets/img/produtos/brush05.jpg')},
+{titulo: 'Caderno univ. Teen Titans 10 matérias', preco: '16,00', categoria: 'Escolar', subcategoria: 'Caderno', imagem: require('~/assets/img/produtos/caderno07.jpg')},
+{titulo: 'Caderno univ. 10 matérias (capa sortida)', preco: '12,00', categoria: 'Escolar', subcategoria: 'Caderno', imagem: require('~/assets/img/produtos/caderno09.jpg')},
+{titulo: 'Caderno univ. Teen Titans 15 matérias', preco: '20,00', categoria: 'Escolar', subcategoria: 'Caderno', imagem: require('~/assets/img/produtos/caderno06.jpg')},
+{titulo: 'Caderno de cartografia', preco: '9,70', categoria: 'Escolar', subcategoria: 'Caderno', imagem: require('~/assets/img/produtos/cartografia03,jpg')},
+{titulo: 'Kit lápis de cor 42 unidades', preco: '108,00', categoria: 'Escolar', subcategoria: 'Pintura', imagem: require('~/assets/img/produtos/lapiscor02.jpg')},
+{titulo: 'Lapiseira 2.0mm + grafite', preco: '9,90', categoria: 'Escolar', subcategoria: 'Escrita', imagem: require('~/assets/img/produtos/lapiseira01.jpg')},
+{titulo: 'Caneta dual brush 6 cores neon', preco: '9,00', categoria: 'Escolar, Arte', subcategoria: 'Escrita', imagem: require('~/assets/img/produtos/brush06.jpg')},
+{titulo: 'Kit autoadesivo 4 blocos c/ 100 fls cada', preco: '11,70', categoria: 'Escritorio', subcategoria: 'Papelaria', imagem: require('~/assets/img/produtos/postit01.jpg')},
+{titulo: 'Planner anual Amanhecer', preco: '26,80', categoria: 'Escritorio', subcategoria: 'Planner', imagem: require('~/assets/img/produtos/planner03.jpg')},
+{titulo: 'Mochila Unicórnio', preco: '36,00', categoria: 'Escolar', subcategoria: 'Mochila', imagem: require('~/assets/img/produtos/mochila03.jpg')},
+{titulo: 'Organizador arquivo c/ 6 pastas', preco: '75,00', categoria: 'Escritorio', subcategoria: 'Organizacao', imagem: require('~/assets/img/produtos/organizador08.jpg')},
+{titulo: 'Canetas Brush 4 kits c/ 6 cores cada', preco: '198,00', categoria: 'Escolar, Arte', subcategoria: 'Escrita, Pintura', imagem: require('~/assets/img/produtos/kit04.jpg')},
+{titulo: 'Lápis de cor 12 cores + apontador + borracha', preco: '26,00', categoria: 'Escolar', subcategoria: 'Pintura', imagem: require('~/assets/img/produtos/lapiscor09.jpg')},
+{titulo: 'Envelope papel kraft', preco: '18,00', categoria: 'Escritorio', subcategoria: 'Papelaria', imagem: require('~/assets/img/produtos/envelope02.jpg')},
+{titulo: 'Planner horizontal', preco: '43,00', categoria: 'Escritorio', subcategoria: 'Planner', imagem: require('~/assets/img/produtos/planner05.jpg')},
+{titulo: 'Estojo color', preco: '13,00', categoria: 'Escolar', subcategoria: 'Estojo', imagem: require('~/assets/img/produtos/estojo02.jpg')},
+{titulo: 'Cesto de lixo colorido', preco: '14,50', categoria: 'Escritorio', subcategoria: 'Lixeira', imagem: require('~/assets/img/produtos/lixeira02.jpg')},
+{titulo: 'Caderno univ. Espaço 10 matérias', preco: '12,00', categoria: 'Escolar', subcategoria: 'Caderno', imagem: require('~/assets/img/produtos/caderno05.jpg')},
+{titulo: 'Porta-canetas', preco: '6,50', categoria: 'Escritorio', subcategoria: 'Organizacao', imagem: require('~/assets/img/produtos/organizador05.jpg')}
     ]
 })
