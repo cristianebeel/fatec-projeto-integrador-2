@@ -1,8 +1,7 @@
 <template>
     <nuxt-link :to="path">
-        <div class="h-58 w-44 rounded bg-white shadow flex flex-col items-center
-                    transition duration-200 ease-in-out transform hover:scale-110
-                    lg:h-54 lg:w-52">
+        <div class="h-58 w-44 rounded bg-white shadow flex flex-col items-center hover:skew-x-1
+                    transition duration-200 ease-in-out transform lg:h-54 lg:w-52">
             <figure>
                 <img v-if="imagem" :src="imagem" :alt="nome"
                     class="h-32 w-full object-cover lg:h-40">
