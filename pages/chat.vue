@@ -1,7 +1,7 @@
 <template>
     <div class="my-6">
-        <Page-Title>Converse com nossos atendentes</Page-Title>
-        <span v-if="waiting" class="mt-6">Aguarde...</span>
+        <Page-Title>{{$t('talkToAttendants')}}</Page-Title>
+        <span v-if="waiting" class="mt-6">{{$t('pleaseWait')}}</span>
         <template v-else>
             <div class="flex flex-row w-full max-w-screen mt-3 gap-4 justify-center">
                 <input type="text" v-model="username" placeholder="Digite seu nome"
@@ -24,7 +24,7 @@
                 <button class="px-3 py-1 bg-green-300 rounded transition-all
                     hover:bg-green-400 focus:bg-green-500"
                 >
-                    Adicionar
+                    {{$t('add')}}
                 </button>
             </form>
         </template>

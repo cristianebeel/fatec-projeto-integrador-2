@@ -35,4 +35,17 @@ export default{
     letteringText:'Lettering é “a arte de desenhar letras que encanta com delicadeza”, expressando seus sentimentos com criatividade e identidade visual singular: uma combinação específica de letras trabalhadas, para uma única utilização e finalidade.',
     letteringText2:'Ela começou a ser utilizada por designers para criação de logotipos e composições all-type, mas nos últimos anos vem trazendo paixão aos amantes de papelaria.',
     letteringText3:'O lettering é desenhado, na maioria das vezes, desenhado à mão, com lápis, canetas, pinceis e pode ser trabalhado digitalmente.',
+
+    talkToAttendants:'Fale com nossos atendentes.',
+    pleaseWait:'Por favor, aguarde...',
+    add:'Adicionar',
+
+    form:'Fale conosco através do formulário abaixo. Retornaremos o mais rápido possível.',
+    name:'Nome',
+    email:'E-mail',
+    yourMessage:'Sua mensagem',
+    clean:'Limpar',
+    send:'Enviar',
+
+    allOffice:'Tudo para escritório.',
 }
