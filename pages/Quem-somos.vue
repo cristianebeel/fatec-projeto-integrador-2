@@ -16,7 +16,7 @@
                 <form action="#" class="mt-2">
                     <div class="flex items-center">
                         <input type="email" class="w-full px-2 py-4 mr-2  bg-red-100 shadow-inner rounded-md border border-gray-400 focus:outline-none" required>
-                        <button class="bg-red-600 text-red-200 px-5 py-2 rounded shadow " style="margin-left: -7.8rem;">Sign Up</button>
+                        <button class="bg-red-600 text-red-200 px-5 py-2 rounded shadow " style="margin-left: -7.8rem;">Assinar</button>
                     </div>
                 </form>
             </div>
