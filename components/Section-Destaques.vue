@@ -1,6 +1,6 @@
 <template>
     <section id="destaques" class="w-auto py-4">
-        <Section-Title>Destaques</Section-Title>
+        <Section-Title>{{$t('highlights')}}</Section-Title>
         <Destaques />
     </section>
 </template>

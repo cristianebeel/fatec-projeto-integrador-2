@@ -9,8 +9,8 @@
                         <nuxt-link to="/escritorio" class="link">{{$t('office')}}</nuxt-link>
                         <nuxt-link to="/artes-e-pintura" class="link">{{$t('artAndPainting')}}</nuxt-link>
                         <nuxt-link to="/contato" class="link">{{$t('contact')}}</nuxt-link>
-                        <nuxt-link :to="switchLocalePath(en)" >EN</nuxt-link>
-                        <nuxt-link :to="switchLocalePath(pt-br)" >BR</nuxt-link>
+                        <nuxt-link :to="switchLocalePath('en')" class="link">EN</nuxt-link>
+                        <nuxt-link :to="switchLocalePath('pt-br')" class="link">BR</nuxt-link>
                     </div>
             </div>
         </nav>

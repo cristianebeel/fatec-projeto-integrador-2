@@ -7,7 +7,7 @@
                 <input class="carousel-open" type="radio" id="carousel-1" name="carousel" aria-hidden="true" hidden="" checked="checked" />
                 <div class="carousel-item absolute opacity-0">
                     <div class="car-banner-01">
-                        <p>Materiais Escolares</p>
+                        <p>{{$t('schoolSupplies')}}</p>
                     </div>
                 </div>
                 <label for="carousel-4" class="prev control-1 ml-2 md:ml-10 flex justify-center absolute cursor-pointer hidden font-bold text-black hover:text-white rounded-full bg-white hover:bg-pink-400 leading-tight text-center z-10 inset-y-0 left-0 my-auto"></label>
@@ -17,7 +17,7 @@
                 <input class="carousel-open" type="radio" id="carousel-2" name="carousel" aria-hidden="true" hidden="" />
                 <div class="carousel-item absolute opacity-0">
                     <div class="car-banner-02">
-                        <p>Suprimentos para Escritório</p>
+                        <p>{{$t('officeSupplies')}}</p>
                     </div>
                 </div>
                 <label for="carousel-1" class="prev control-2 ml-2 md:ml-10 flex justify-center absolute cursor-pointer hidden font-bold text-black hover:text-white rounded-full bg-white hover:bg-pink-400 leading-tight text-center z-10 inset-y-0 left-0 my-auto"></label>
@@ -27,7 +27,7 @@
                 <input class="carousel-open" type="radio" id="carousel-3" name="carousel" aria-hidden="true" hidden="" />
                 <div class="carousel-item absolute opacity-0">
                     <div class="car-banner-03">
-                        <p>Artes & Pintura</p>
+                        <p>{{$t('artAndPainting')}}</p>
                     </div>
                 </div>
                 <label for="carousel-2" class="prev control-3 ml-2 md:ml-10 flex justify-center absolute cursor-pointer hidden font-bold text-black hover:text-white rounded-full bg-white hover:bg-pink-400 leading-tight text-center z-10 inset-y-0 left-0 my-auto"></label>
@@ -37,7 +37,7 @@
                 <input class="carousel-open" type="radio" id="carousel-4" name="carousel" aria-hidden="true" hidden="" />
                 <div class="carousel-item absolute opacity-0">
                     <div class="car-banner-04">
-                        <p>Contato</p>
+                        <p>{{$t('contact')}}</p>
                     </div>
                 </div>
                 <label for="carousel-3" class="prev control-4 ml-2 md:ml-10 flex justify-center absolute cursor-pointer hidden font-bold text-black hover:text-white rounded-full bg-white hover:bg-pink-400 leading-tight text-center z-10 inset-y-0 left-0 my-auto"></label>

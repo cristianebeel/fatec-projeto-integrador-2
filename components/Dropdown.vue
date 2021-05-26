@@ -2,18 +2,18 @@
 <ul class="relative">
     <li class="inline-block">
         <nuxt-link to="#">
-            Todas as categorias
+            {{$t('allCategories')}}
         </nuxt-link>
         <ul class="hidden">
-            <li><nuxt-link to="/categoria/cadernos">Cadernos</nuxt-link></li>
-            <li><nuxt-link to="/categoria/escrita">Escrita</nuxt-link></li>
-            <li><nuxt-link to="/categoria/estojos">Estojos</nuxt-link></li>
-            <li><nuxt-link to="/categoria/lixeiras">Lixeiras</nuxt-link></li>
-            <li><nuxt-link to="/categoria/mochilas">Mochilas</nuxt-link></li>
-            <li><nuxt-link to="/categoria/organizacao">Organização</nuxt-link></li>
-            <li><nuxt-link to="/categoria/papelaria">Papelaria</nuxt-link></li>
-            <li><nuxt-link to="/categoria/pintura">Pintura</nuxt-link></li>
-            <li><nuxt-link to="/categoria/planners-e-agendas">Planners e Agendas</nuxt-link></li>
+            <li><nuxt-link to="/categoria/cadernos">{{$t('notebooks')}}</nuxt-link></li>
+            <li><nuxt-link to="/categoria/escrita">{{$t('writing')}}</nuxt-link></li>
+            <li><nuxt-link to="/categoria/estojos">{{$t('cases')}}</nuxt-link></li>
+            <li><nuxt-link to="/categoria/lixeiras">{{$t('bins')}}</nuxt-link></li>
+            <li><nuxt-link to="/categoria/mochilas">{{$t('backpacks')}}</nuxt-link></li>
+            <li><nuxt-link to="/categoria/organizacao">{{$t('organization')}}</nuxt-link></li>
+            <li><nuxt-link to="/categoria/papelaria">{{$t('stationaryStore')}}</nuxt-link></li>
+            <li><nuxt-link to="/categoria/pintura">{{$t('painting')}}</nuxt-link></li>
+            <li><nuxt-link to="/categoria/planners-e-agendas">{{$t('plannersAndAppointmentBook')}}</nuxt-link></li>
         </ul>
     </li>
 </ul>

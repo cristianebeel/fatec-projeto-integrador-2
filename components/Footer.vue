@@ -1,7 +1,7 @@
 <template>
     <footer class="flex justify-center w-full text-white text-xs py-4
         md:relative md:text-md lg:text-lg xl:text-xl">
-        <p>Romapel Papelaria &reg; Todos os direitos reservados</p>
+        <p>{{$t('romapelAllRights')}}</p>
     </footer>
 </template>
 
