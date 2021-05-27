@@ -17,9 +17,9 @@
             <div class="flex flex-col text-center">
                 <Section-Subtitle>{{$t('info')}}</Section-Subtitle>
                 <Informacoes :items="[
-                    {text: 'Quem somos'},
-                    {text: 'FAQ - Dúvidas frequentes'},
-                    {text: 'Fale conosco'}
+                    {text: $t('whoWeAre')},
+                    {text: $t('FAQ')},
+                    {text: $t('talkToUs')}
                 ]" />
             </div>
             <div class="flex flex-col text-center">
@@ -27,7 +27,7 @@
                 <Informacoes :items="[
                     {text: '(00) 0000-0000'},
                     {text: 'atendimento@romapel.com.br'},
-                    {text: 'Segunda a Sexta das 8h às 18h'}
+                    {text: $t('mondayToFriday')}
                 ]" />
             </div>
         </div>

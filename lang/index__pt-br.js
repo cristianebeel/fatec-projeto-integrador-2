@@ -48,4 +48,14 @@ export default{
     send:'Enviar',
 
     allOffice:'Tudo para escritório.',
+
+    nameExample:'Reginaldo Rossi',
+    emailExample:'garçomdobar@email.com',
+    messageExample:'Aqui neste email de bar, voce ja cansou de escutar...',
+
+    mondayToFriday:'de segunda a sexta das 8h as 18h',
+    whoWeAre:'Quem somos',
+    FAQ:'FAQ- Dúvidas frequentes',
+    talkToUs:'Fale conosco',
+
 }
