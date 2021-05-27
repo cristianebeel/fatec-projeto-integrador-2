@@ -1,3 +1,3 @@
 <template>
-  <img src="../assets/img/logo.png" alt="Romapel Papelaria">
+  <img src="../assets/img/logo02.png" alt="Romapel Papelaria">
 </template>
