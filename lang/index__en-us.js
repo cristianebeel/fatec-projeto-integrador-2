@@ -9,7 +9,7 @@ export default{
     schoolSupplies:'School supplies',
     officeSupplies:'Office supplies',
 
-    showingAllProductsIn:'Showing all products in',
+    showingAllProductsIn:'Showing all products in ',
 
     allCategories:'All categories',
     notebooks:'Notebooks',
@@ -24,7 +24,7 @@ export default{
 
     romapelAllRights:'Romapel® All rights reserved',
 
-    lastAddProducts:'Latest products added',
+    lastAddProducts:'Latest products added ',
 
     highlights:'Highlights',
 
@@ -37,7 +37,7 @@ export default{
     letteringText2:'It started to be used by designers to create logos and all-type compositions, but in recent years it has been bringing passion to stationery lovers.',
     letteringText3:'The lettering is drawn, most of the time, drawn by hand, with pencils, pens, brushes and can be worked digitally.',
 
-    talkToAttendants:'Talk to our attendants',
+    talkToAttendants:'Talk to our attendants.',
     pleaseWait:'Please wait...',
     add:'Add',
 
@@ -49,5 +49,14 @@ export default{
     send:'Send',
 
     allOffice:'Everything for office.',
+
+    nameExample:'James Tiberius Kirk',
+    emailExample:'williamshatner@email.com',
+    messageExample:'Im the captain of the Enterprise',
+
+    mondayToFriday:'Monday to friday from 8am to 6pm',
+    whoWeAre:'Who we are',
+    FAQ:'FAQ- Frequently asked questions',
+    talkToUs:'Talk to us',
 
 }

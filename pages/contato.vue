@@ -4,13 +4,13 @@
         <p class="text-gray-900 dark:text-gray-400 text-base text-center">{{$t('form')}}</p>
         <form @submit.prevent="send" class="mx-auto w-9/12 mt-7">
             <label for="name">{{$t('name')}}</label>
-            <input type="text" v-model="name" name="name" id="name" placeholder="Seu nome" required />
+            <input type="text" v-model="name" name="name" id="name" :placeholder="$t('nameExample')" required />
 
             <label for="email">{{$t('email')}}</label>
-            <input type="email" v-model="email" name="email" id="email" placeholder="Seu e-mail" required />
+            <input type="email" v-model="email" name="email" id="email" :placeholder="$t('emailExample')" required />
 
             <label for="message">{{$t('yourMessage')}}</label>
-            <textarea rows="5" v-model="message" name="message" id="message" placeholder="Escreva sua mensagem" required></textarea>
+            <textarea rows="5" v-model="message" name="message" id="message" :placeholder="$t('messageExample')" required></textarea>
 
             <div class="flex justify-end gap-4 mx-1">
                 <button type="reset" class="py-2 px-6 text-white bg-red-500 rounded-md hover:bg-red-600 focus:bg-red-700 focus:outline-none">{{$t('clean')}}</button>
