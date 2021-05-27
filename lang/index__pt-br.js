@@ -2,13 +2,13 @@ export default{
 
     school:'Escolar',
     office:'Escritório',
-    artAndPainting:'Arte & pintura',
+    artAndPainting:'Arte & Pintura',
     contact:'Contato',
 
     schoolSupplies:'Materiais escolares',
     officeSupplies:'Suprimentos para escritório',  
     
-    showingAllProductsIn:'Mostrando todos os produtos em',
+    showingAllProductsIn:'Mostrando todos os produtos em ',
 
     allCategories:'Todas as categorias',
     notebooks:'Cadernos',
@@ -27,9 +27,10 @@ export default{
 
     highlights:'Destaques',
     
-    paymentMethods:'Metodos de pagamento',
+    paymentMethods:'Métodos de pagamento',
     info:'Informação',
-    attendance:'Atendimento',
+    attendants:'Atendimento',
+    followUs:'Siga-nos',
 
     letteringAndIllustrations:'Novidades para usar em seus Letterings e Ilustrações',
     letteringText:'Lettering é “a arte de desenhar letras que encanta com delicadeza”, expressando seus sentimentos com criatividade e identidade visual singular: uma combinação específica de letras trabalhadas, para uma única utilização e finalidade.',

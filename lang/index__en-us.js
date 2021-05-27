@@ -3,7 +3,7 @@ export default{
 
     school:'School',
     office:'Office',
-    artAndPainting:'Art and painting',
+    artAndPainting:'Art and Painting',
     contact:'Contact',
 
     schoolSupplies:'School supplies',
@@ -31,6 +31,7 @@ export default{
     paymentMethods:'Payment methods',
     info:'Information',
     attendants:'Attendants',
+    followUs:'Follow us',
 
     letteringAndIllustrations:'News to use in your Letterings and Illustrations',
     letteringText:'Lettering is “the art of drawing letters that delights with delicacy”, expressing your feelings with creativity and unique visual identity: a specific combination of letters worked, for a single use and purpose.',

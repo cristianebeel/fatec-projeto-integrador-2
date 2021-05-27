@@ -32,7 +32,7 @@
             </div>
         </div>
         <div class="flex flex-col text-center lg:order-3">
-          <Section-Subtitle>Siga-nos</Section-Subtitle>
+          <Section-Subtitle>{{$t('followUs')}}</Section-Subtitle>
           <center><figure title="Facebook">
             <a href="https://www.facebook.com/papelariaromapel" target="_blank"><Logo-Facebook class="h-14 object-center" /></a>
           </figure></center>
