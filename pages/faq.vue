@@ -1,5 +1,4 @@
 <template>
-
 <div>
   <br>
       <section class="text-blue-900 text-lg">
@@ -98,10 +97,6 @@
                   Não.
                 </span>
              </details>
-
-
-
-
             </div>
           </div>
         </div>
