@@ -23,7 +23,7 @@
                 ]" />
             </div>
             <div class="flex flex-col text-center">
-                <Section-Subtitle>{{$t('attendance')}}</Section-Subtitle>
+                <Section-Subtitle>{{$t('attendants')}}</Section-Subtitle>
                 <Informacoes :items="[
                     {text: '(00) 0000-0000'},
                     {text: 'atendimento@romapel.com.br'},
