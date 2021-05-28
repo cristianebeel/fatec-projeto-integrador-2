@@ -40,7 +40,7 @@ export default {
   ],
   i18n: {
     vueI18nLoader: true,
-    defaultLocale: 'en',
+    defaultLocale: 'pt-br',
     locales: [
       {
         code: 'en',

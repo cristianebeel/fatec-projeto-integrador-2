@@ -2,13 +2,13 @@ export default{
 
     school:'Escolar',
     office:'Escritório',
-    artAndPainting:'Arte & pintura',
+    artAndPainting:'Arte & Pintura',
     contact:'Contato',
 
     schoolSupplies:'Materiais escolares',
     officeSupplies:'Suprimentos para escritório',  
     
-    showingAllProductsIn:'Mostrando todos os produtos em',
+    showingAllProductsIn:'Mostrando todos os produtos em ',
 
     allCategories:'Todas as categorias',
     notebooks:'Cadernos',
@@ -27,9 +27,10 @@ export default{
 
     highlights:'Destaques',
     
-    paymentMethods:'Metodos de pagamento',
+    paymentMethods:'Métodos de pagamento',
     info:'Informação',
-    attendance:'Atendimento',
+    attendants:'Atendimento',
+    followUs:'Siga-nos',
 
     letteringAndIllustrations:'Novidades para usar em seus Letterings e Ilustrações',
     letteringText:'Lettering é “a arte de desenhar letras que encanta com delicadeza”, expressando seus sentimentos com criatividade e identidade visual singular: uma combinação específica de letras trabalhadas, para uma única utilização e finalidade.',
@@ -57,5 +58,19 @@ export default{
     whoWeAre:'Quem somos',
     FAQ:'FAQ- Dúvidas frequentes',
     talkToUs:'Fale conosco',
+
+    sorry:'Desculpe',
+    errorProducts:'Nenhum produto encontrado',
+
+    aboutText:' A Papelaria Roma é uma empresa sediada na cidade de Monte Alto/SP. Na Papelaria Roma ou Romapel você encontra os mais variados itens de Material Escolar, Escritório, Mochilas, Pastas e Malas, Xerox Preto e Colorido, Impressão, Currículo e Declaração, Encadernação e Plastificação, Papéis Especiais, Tintas e Pincéis, Itens artesanais, Lembrancinhas e Brindes Personalizados, E muito mais...A Papelaria Roma é a sua Papelaria Online, com Material Escolar, Pintura e Escritório com bons preços e entrega para todo Brasil. Tudo o que você precisa para seu Escritório, Consultório ou Home Office em um só lugar.',
+    romapelStationary:'Papelaria Roma - Romapel',
+
+    errorPage:'Desculpe, não pudemos encontrar esta página.',
+    toHomepageText:' Mas não se preocupe, você pode encontrar milhares de itens em nossa pagina inicial.',
+    toHomepage:'Ir para a pagina inicial',
+
+    signUpNewsletter:'Inscreva-se em nossa Newsletter',
+    newsEmail:' Últimas novidades enviadas diretamente para seu e-mail.',
+    signUp:'Assinar',
 
 }
