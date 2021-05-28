@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Categorias-Title>{{$t('stationaryStore')}}</Categorias-Title>
+    <Categorias-Title>Agendas</Categorias-Title>
 
     <div v-if="!produtos.length">
       <Erro-Produtos />
@@ -28,11 +28,19 @@
   </div>
 </template>
 
+<style>
+.rodape{
+  position: absolute;
+  bottom: 0;
+  width: 100vw;
+}
+</style>
+
 <script>
 import { mapState } from "vuex";
 
 export default {
-  name: "papelaria",
+  name: "agendas",
 
   data(){
     return{
@@ -42,7 +50,7 @@ export default {
 
   computed: {
     ...mapState({
-      produtos: (state) => state.produtos.produtos.filter(item => item.subcategoria === 'Papelaria')
+      produtos: (state) => state.produtos.produtos.filter(item => item.subcategoria === 'Agenda')
     }),
 
     paginasTotais(){
