@@ -24,7 +24,7 @@ export default{
     
     romapelAllRights:'Romapel® Todos os direitos reservados',
     
-    lastAddProducts:'últimos produtos adicionados',
+    lastAddProducts:'Últimos produtos adicionados',
 
     highlights:'Destaques',
     
