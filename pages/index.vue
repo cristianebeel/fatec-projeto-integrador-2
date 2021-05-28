@@ -4,5 +4,6 @@
     <Section-Destaques />
     <Video />
     <Novos-Produtos />
+    <Newsletter />
 </div>
 </template>
