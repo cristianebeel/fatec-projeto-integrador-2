@@ -28,14 +28,6 @@
   </div>
 </template>
 
-<style>
-.rodape{
-  position: absolute;
-  bottom: 0;
-  width: 100vw;
-}
-</style>
-
 <script>
 import { mapState } from "vuex";
 
