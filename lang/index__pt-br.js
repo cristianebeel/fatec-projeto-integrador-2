@@ -21,6 +21,7 @@ export default{
     painting:'Pintura',
     appointmentBook:'Agendas',
     plannersAndAppointmentBook:'Planners e agendas',
+    planners:'Planners',
     
     romapelAllRights:'Romapel® Todos os direitos reservados',
     
@@ -28,7 +29,7 @@ export default{
 
     highlights:'Destaques',
     
-    paymentMethods:'Métodos de pagamento',
+    paymentMethods:'Métodos de Pagamento',
     info:'Informação',
     attendants:'Atendimento',
     followUs:'Siga-nos',
@@ -38,7 +39,7 @@ export default{
     letteringText2:'Ela começou a ser utilizada por designers para criação de logotipos e composições all-type, mas nos últimos anos vem trazendo paixão aos amantes de papelaria.',
     letteringText3:'O lettering é desenhado, na maioria das vezes, desenhado à mão, com lápis, canetas, pinceis e pode ser trabalhado digitalmente.',
 
-    talkToAttendants:'Fale com nossos atendentes.',
+    talkToAttendants:'Fale com nossos atendentes',
     pleaseWait:'Por favor, aguarde...',
     add:'Adicionar',
 
@@ -53,9 +54,9 @@ export default{
 
     nameExample:'Luiz Fonseca',
     emailExample:'luizinho@email.com',
-    messageExample:'eu adorei a internacionalização, quem foi o grande profissional responsável?',
+    messageExample:'Escreva aqui a sua mensagem.',
 
-    mondayToFriday:'de segunda a sexta das 8h as 18h',
+    mondayToFriday:'De segunda a sexta das 8h às 18h',
     whoWeAre:'Quem somos',
     FAQ:'FAQ- Dúvidas frequentes',
     faq:'Perguntas mais frequentes',
@@ -72,24 +73,24 @@ export default{
     toHomepage:'Ir para a pagina inicial',
 
     signUpNewsletter:'Inscreva-se em nossa Newsletter',
-    newsEmail:' Últimas novidades enviadas diretamente para seu e-mail.',
+    newsEmail:' Receba as últimas novidades em seu e-mail',
     signUp:'Assinar',
 
-    commonQuestions:'As perguntas mais comuns sobre o que podemos fazer por você.',
-    question01:'Consigo rastrear o minha Compra?',
-    question02:'Qual a empresa responsável pela entrega da minha Compra?',
-    question03:'Posso fazer minha Compra no site e buscar os produtos adquiridos na loja física?',
-    question04:'Posso adicionar outro produto à Compra que eu fiz?',
-    question05:'Não recebi todos os itens da minha Compra.O que devo fazer?',
-    question06:'Posso efetuar uma Compra no site com CNPJ?',
+    commonQuestions:'As perguntas mais comuns sobre o que podemos fazer por você',
+    question01:'Consigo rastrear a minha compra?',
+    question02:'Qual a empresa responsável pela entrega da minha compra?',
+    question03:'Posso fazer minha compra no site e buscar os produtos adquiridos na loja física?',
+    question04:'Posso adicionar outro produto à compra que eu fiz?',
+    question05:'Não recebi todos os itens da minha Compra. O que devo fazer?',
+    question06:'Posso efetuar uma compra no site com CNPJ?',
     question07:'Como faço para confirmar a disponibilidade de um produto no estoque?',
     question08:'Existe um valor mínimo de pedido?',
-    answer01:'Sim. As informações mais atualizadas sobre sua Compra e a situação de entrega de suaCompra estão disponíveis em "Meus pedidos".Além disso, você será notificado do andamento do seu pedido pelo e-mail cadastrado.',
-    answer02:'As entregas são realizadas exclusivamente pelos Correios.',
-    answer03:'Não. Ao efetuar uma Compra pelo site, você receberá o(s) produto(s) adquirido(s) no endereço informado,por meio dos mecanismos de entrega disponibilizados pela Romapel no site.',
-    answer04:'Não, após finalizada, a Compra não poderá ser alterada.Para adquirir outro produto, você deverá iniciar uma nova Compra.',
-    answer05:'Entre em contato com o nossa loja física pelo telefone(16) 3243-2696 ou pelos outros meios de atendimento disponibilizados.',
-    answer06:'Neste momento, não estamos trabalhando com esta opção. Apenas pessoas físicas podem se cadastrar no site e efetuar Compras.A aquisição de produtos por meio de CNPJ pode ser feito através de nossa página no Facebook @papelariaromapel.',
-    answer07:'No site, se houver carrinho de compras visível no momento da finalização dopedido, significa que há estoque do produto.',
+    answer01:'Sim. As informações mais atualizadas sobre sua compra e a situação de entrega de sua compra estão disponíveis em "Meus pedidos". Além disso, você será notificado sobre o andamento do seu pedido pelo e-mail cadastrado.',
+    answer02:'As entregas são realizadas exclusivamente através dos Correios.',
+    answer03:'Não. Ao efetuar uma compra pelo site, você receberá o(s) produto(s) adquirido(s) no endereço informado, por meio dos mecanismos de entrega disponibilizados no site da Romapel.',
+    answer04:'Não, após finalizada, a compra não poderá ser alterada.Para adquirir outro produto, você deverá iniciar uma nova Compra.',
+    answer05:'Entre em contato com o nossa loja física pelo telefone (16) 3243-2696 ou pelos outros meios de atendimento disponibilizados.',
+    answer06:'Neste momento, não estamos trabalhando com esta opção. Apenas pessoas físicas podem se cadastrar no site e efetuar compras. A aquisição de produtos por meio de CNPJ pode ser feito através de nossa página no Facebook @papelariaromapel.',
+    answer07:'No site, se houver carrinho de compras visível no momento da finalização do pedido, significa que há estoque do produto.',
     answer08:' Não.',
 }

@@ -14,7 +14,7 @@
             <li><nuxt-link to="/categoria/organizacao?page=1">{{$t('organization')}}</nuxt-link></li>
             <li><nuxt-link to="/categoria/papelaria?page=1">{{$t('stationaryStore')}}</nuxt-link></li>
             <li><nuxt-link to="/categoria/pintura?page=1">{{$t('painting')}}</nuxt-link></li>
-            <li><nuxt-link to="/categoria/planners?page=1">{{$t('plannersAndAppointmentBook')}}</nuxt-link></li>
+            <li><nuxt-link to="/categoria/planners?page=1">{{$t('planners')}}</nuxt-link></li>
         </ul>
     </li>
 </ul>

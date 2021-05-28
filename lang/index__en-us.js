@@ -22,6 +22,7 @@ export default{
     painting:'Painting',
     appointmentBook:'Appointment book',
     plannersAndAppointmentBook:'Planners and appointment book',
+    planners:'Planners',
 
     romapelAllRights:'Romapel® All rights reserved',
 
@@ -29,7 +30,7 @@ export default{
 
     highlights:'Highlights',
 
-    paymentMethods:'Payment methods',
+    paymentMethods:'Payment Methods',
     info:'Information',
     attendants:'Attendants',
     followUs:'Follow us',
@@ -39,7 +40,7 @@ export default{
     letteringText2:'It started to be used by designers to create logos and all-type compositions, but in recent years it has been bringing passion to stationery lovers.',
     letteringText3:'The lettering is drawn, most of the time, drawn by hand, with pencils, pens, brushes and can be worked digitally.',
 
-    talkToAttendants:'Talk to our attendants.',
+    talkToAttendants:'Talk to our attendants',
     pleaseWait:'Please wait...',
     add:'Add',
 
@@ -56,7 +57,7 @@ export default{
     emailExample:'williamshatner@email.com',
     messageExample:'Im the captain of the Enterprise',
 
-    mondayToFriday:'Monday to friday from 8am to 6pm',
+    mondayToFriday:'Monday to Friday - 8am to 6pm',
     whoWeAre:'Who we are',
     FAQ:'FAQ- Frequently asked questions',
     faq:'Frequently asked questions',
@@ -69,11 +70,11 @@ export default{
     romapelStationary:'Stationary Roma - Romapel',
 
     errorPage:'sorry, we could not find this page.',
-    toHomepageText:'But do not worry, you can find thousands of items on our homepage.',
+    toHomepageText:'But do not worry, you still can find a lot of items in our site.',
     toHomepage:'Go to Homepage',
 
     signUpNewsletter:'Sign up for our newsletter',
-    newsEmail:'Latest news presented directly to your email.',
+    newsEmail:'Receive our latest news directly in your email',
     signUp:'Sign up',
 
     commonQuestions:'The most common questions about what we can do for you.',
