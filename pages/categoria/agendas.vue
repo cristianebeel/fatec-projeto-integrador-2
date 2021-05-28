@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="h-screen">
     <Categorias-Title>{{$t('appointmentBook')}}</Categorias-Title>
 
     <div v-if="!produtos.length">
