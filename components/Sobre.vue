@@ -4,7 +4,7 @@
 <div class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-3xl">
   <div class="md:flex ">
     <div class="md:flex-shrink-0">
-      <img class="h-64 w-full object-cover rounded-lg md:h-full md:w-72" src="~assets/img/cat/logoroma.png" alt="Man looking at item at a store">
+      <img class="h-64 w-full object-cover rounded-lg md:h-full md:w-72" src="~assets/img/artlogo3.png" alt="Man looking at item at a store">
     </div>
     <div class="p-8">
       <div class="uppercase tracking-wide text-sm text-3xl text-pink-800 font-extrabold">Romapel</div>
