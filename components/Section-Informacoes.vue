@@ -25,7 +25,7 @@
             <div class="flex flex-col text-center">
                 <Section-Subtitle>{{$t('attendants')}}</Section-Subtitle>
                 <Informacoes :items="[
-                    {texto: '(00) 0000-0000', link: '#'},
+                    {texto: '(16) 3243-2696', link: '#'},
                     {texto: 'atendimento@romapel.com.br', link: '#'},
                     {texto: $t('mondayToFriday'), link: '#'}
                 ]" />
