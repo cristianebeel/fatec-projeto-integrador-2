@@ -5,15 +5,16 @@
             {{$t('allCategories')}}
         </nuxt-link>
         <ul class="hidden">
-            <li><nuxt-link to="/categoria/cadernos">{{$t('notebooks')}}</nuxt-link></li>
-            <li><nuxt-link to="/categoria/escrita">{{$t('writing')}}</nuxt-link></li>
-            <li><nuxt-link to="/categoria/estojos">{{$t('cases')}}</nuxt-link></li>
-            <li><nuxt-link to="/categoria/lixeiras">{{$t('bins')}}</nuxt-link></li>
-            <li><nuxt-link to="/categoria/mochilas">{{$t('backpacks')}}</nuxt-link></li>
-            <li><nuxt-link to="/categoria/organizacao">{{$t('organization')}}</nuxt-link></li>
-            <li><nuxt-link to="/categoria/papelaria">{{$t('stationaryStore')}}</nuxt-link></li>
-            <li><nuxt-link to="/categoria/pintura">{{$t('painting')}}</nuxt-link></li>
-            <li><nuxt-link to="/categoria/planners-e-agendas">{{$t('plannersAndAppointmentBook')}}</nuxt-link></li>
+            <li><nuxt-link to="/categoria/agendas?page=1">Agendas</nuxt-link></li>
+            <li><nuxt-link to="/categoria/cadernos?page=1">{{$t('notebooks')}}</nuxt-link></li>
+            <li><nuxt-link to="/categoria/escrita?page=1">{{$t('writing')}}</nuxt-link></li>
+            <li><nuxt-link to="/categoria/estojos?page=1">{{$t('cases')}}</nuxt-link></li>
+            <li><nuxt-link to="/categoria/lixeiras?page=1">{{$t('bins')}}</nuxt-link></li>
+            <li><nuxt-link to="/categoria/mochilas?page=1">{{$t('backpacks')}}</nuxt-link></li>
+            <li><nuxt-link to="/categoria/organizacao?page=1">{{$t('organization')}}</nuxt-link></li>
+            <li><nuxt-link to="/categoria/papelaria?page=1">{{$t('stationaryStore')}}</nuxt-link></li>
+            <li><nuxt-link to="/categoria/pintura?page=1">{{$t('painting')}}</nuxt-link></li>
+            <li><nuxt-link to="/categoria/planners?page=1">{{$t('plannersAndAppointmentBook')}}</nuxt-link></li>
         </ul>
     </li>
 </ul>
