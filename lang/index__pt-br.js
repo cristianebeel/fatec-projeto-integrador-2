@@ -51,9 +51,9 @@ export default{
 
     allOffice:'Tudo para escritório.',
 
-    nameExample:'Reginaldo Rossi',
-    emailExample:'garçomdobar@email.com',
-    messageExample:'Aqui neste email de bar, voce ja cansou de escutar...',
+    nameExample:'Luiz Fonseca',
+    emailExample:'luizinho@email.com',
+    messageExample:'eu adorei a internacionalização, quem foi o grande profissional responsável?',
 
     mondayToFriday:'de segunda a sexta das 8h as 18h',
     whoWeAre:'Quem somos',
