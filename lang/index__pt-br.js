@@ -59,4 +59,18 @@ export default{
     FAQ:'FAQ- Dúvidas frequentes',
     talkToUs:'Fale conosco',
 
+    sorry:'Desculpe',
+    errorProducts:'Nenhum produto encontrado',
+
+    aboutText:' A Papelaria Roma é uma empresa sediada na cidade de Monte Alto/SP. Na Papelaria Roma ou Romapel você encontra os mais variados itens de Material Escolar, Escritório, Mochilas, Pastas e Malas, Xerox Preto e Colorido, Impressão, Currículo e Declaração, Encadernação e Plastificação, Papéis Especiais, Tintas e Pincéis, Itens artesanais, Lembrancinhas e Brindes Personalizados, E muito mais...A Papelaria Roma é a sua Papelaria Online, com Material Escolar, Pintura e Escritório com bons preços e entrega para todo Brasil. Tudo o que você precisa para seu Escritório, Consultório ou Home Office em um só lugar.',
+    romapelStationary:'Papelaria Roma - Romapel',
+
+    errorPage:'Desculpe, não pudemos encontrar esta página.',
+    toHomepageText:' Mas não se preocupe, você pode encontrar milhares de itens em nossa pagina inicial.',
+    toHomepage:'Ir para a pagina inicial',
+
+    signUpNewsletter:'Inscreva-se em nossa Newsletter',
+    newsEmail:' Últimas novidades enviadas diretamente para seu e-mail.',
+    signUp:'Assinar',
+
 }

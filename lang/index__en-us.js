@@ -60,5 +60,18 @@ export default{
     FAQ:'FAQ- Frequently asked questions',
     talkToUs:'Talk to us',
 
-    organizer001:'Organizer MDF'
+    sorry:'Sorry',
+    errorProducts:'No products found',
+
+    aboutText:'Stationery Roma is a company based in the city of Monte Alto / SP. At Roma or Romapel Stationery you will find the most varied items of School Supplies, Desk, Backpacks, Briefcases and Bags, Xerox Black and Color, Printing, Curriculum and Declaration, Binding and Plasticization, Special Papers, Paints and Brushes, Handcrafted items, Favors and Gifts Customized, And much more ...Roma Stationery is your Online Stationery, with School Supplies, Painting and Office with good prices and delivery to all Brazil. Everything you need to your Office, Clinic or Home Office in one place.',
+    romapelStationary:'Stationary Roma - Romapel',
+
+    errorPage:'sorry, we could not find this page.',
+    toHomepageText:'But do not worry, you can find thousands of items on our homepage.',
+    toHomepage:'Go to Homepage',
+
+    signUpNewsletter:'Sign up for our newsletter',
+    newsEmail:'Latest news presented directly to your email.',
+    signUp:'Sign up',
+
 }
