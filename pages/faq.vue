@@ -5,10 +5,10 @@
         <div class="container bg-gray-200 px-5 py-18 max-w-8xl mx-auto">
           <div class="text-center font-bold  text-xl mb-20">
             <h1 class="sm:text-3xl text-2xl font-bold text-center title-font text-gray-900 mb-4">
-              Perguntas mais frequentes
+            {{$t('faq')}}
             </h1>
             <p class="text-xl text-indigo-900 font-bold leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
-              As perguntas mais comuns sobre o que podemos fazer por você.
+            {{$t('commonQuestions')}}
             </p>
           </div>
 
@@ -17,84 +17,77 @@
             <div class="w-full lg:w-1/2 px-4 py-2">
           <details class="mb-4">
                 <summary class="font-semibold  bg-gray-200 rounded-md py-2 px-4">
-                 Consigo rastrear o minha Compra?
+                {{$t('question01')}}
                 </summary>
                 <span>
-                  Sim. As informações mais atualizadas sobre sua Compra e a situação de entrega de sua
-                  Compra estão disponíveis em 'Meus pedidos'.
-                  Além disso, você será notificado do andamento do seu pedido pelo e-mail cadastrado.
+                {{$t('answer01')}}
                 </span>
           </details>
 
               <details class="mb-4">
                 <summary class="font-semibold  bg-gray-200 rounded-md py-2 px-4">
-                 Qual a empresa responsável pela entrega da minha Compra?
+                {{$t('question02')}}
                 </summary>
                 <span>
-                  As entregas são realizadas exclusivamente pelos Correios.
+                {{$t('answer02')}}
                 </span>
              </details>
 
               <details class="mb-4">
                 <summary class="font-semibold bg-gray-200 rounded-md py-2 px-4">
-                  Posso fazer minha Compra no site e buscar os produtos adquiridos na loja física?
+                {{$t('question03')}}
                 </summary>
 
                 <span>
-                  Não. Ao efetuar uma Compra pelo site, você receberá o(s) produto(s) adquirido(s) no endereço informado,
-                   por meio dos mecanismos de entrega disponibilizados pela Romapel no site.
+                {{$t('answer03')}}
                 </span>
               </details>
 
               <details class="mb-4">
                 <summary class="font-semibold  bg-gray-200 rounded-md py-2 px-4">
-                  Posso adicionar outro produto à Compra que eu fiz?
+                {{$t('question04')}}
                 </summary>
 
                 <span>
-                 Não, após finalizada, a Compra não poderá ser alterada.
-                 Para adquirir outro produto, você deverá iniciar uma nova Compra.
+                {{$t('answer04')}}
                 </span>
               </details>
             </div>
             <div class="w-full lg:w-1/2 px-4 py-2">
               <details class="mb-4">
                 <summary class="font-semibold  bg-gray-200 rounded-md py-2 px-4">
-                  Não recebi todos os itens da minha Compra
+                {{$t('question05')}}
                 </summary>
 
                 <span class="px-4 py-2">
-                  Entre em contato com o nossa loja física pelo telefone
-                 (16) 3243-2696 ou pelos outros meios de atendimento disponibilizados.
+                {{$t('answer05')}}
                 </span>
               </details>
               <details class="mb-4">
                 <summary class="font-semibold  bg-gray-200 rounded-md py-2 px-4">
-                  Posso efetuar uma Compra no site com CNPJ?
+                {{$t('question06')}}
                 </summary>
 
                 <span class="px-4 py-2">
-                  Neste momento, não estamos trabalhando com esta opção. Apenas pessoas físicas podem se cadastrar no site e efetuar Compras.
-                   A aquisição de produtos por meio de CNPJ pode ser feito através de nossa página no Facebook @papelariaromapel.
+                {{$t('answer06')}}
                 </span>
               </details>
               <details class="mb-4">
                 <summary class="font-semibold  bg-gray-200 rounded-md py-2 px-4">
-                  Como faço para confirmar a disponibilidade de um produto no estoque?
+                {{$t('question07')}}
                 </summary>
 
                 <span class="px-4 py-2">
-                  No site, se houver carrinho de compras visível no momento da finalização do
-                  pedido, significa que há estoque do produto.
+                {{$t('answer07')}}
                 </span>
                </details>
 
                <details class="mb-4">
                 <summary class="font-semibold  bg-gray-200 rounded-md py-2 px-4">
-                 Existe um valor mínimo de pedido?
+                {{$t('question08')}}
                 </summary>
                 <span>
-                  Não.
+                {{$t('answer08')}}
                 </span>
              </details>
             </div>

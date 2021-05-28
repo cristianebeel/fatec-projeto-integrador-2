@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Categorias-Title>Agendas</Categorias-Title>
+    <Categorias-Title>{{$t('appointmentBook')}}</Categorias-Title>
 
     <div v-if="!produtos.length">
       <Erro-Produtos />
