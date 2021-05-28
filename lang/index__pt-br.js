@@ -19,6 +19,7 @@ export default{
     organization:'Organização',
     stationaryStore:'Papelaria',
     painting:'Pintura',
+    appointmentBook:'Agendas',
     plannersAndAppointmentBook:'Planners e agendas',
     
     romapelAllRights:'Romapel® Todos os direitos reservados',
@@ -57,6 +58,7 @@ export default{
     mondayToFriday:'de segunda a sexta das 8h as 18h',
     whoWeAre:'Quem somos',
     FAQ:'FAQ- Dúvidas frequentes',
+    faq:'Perguntas mais frequentes',
     talkToUs:'Fale conosco',
 
     sorry:'Desculpe',
@@ -73,4 +75,21 @@ export default{
     newsEmail:' Últimas novidades enviadas diretamente para seu e-mail.',
     signUp:'Assinar',
 
+    commonQuestions:'As perguntas mais comuns sobre o que podemos fazer por você.',
+    question01:'Consigo rastrear o minha Compra?',
+    question02:'Qual a empresa responsável pela entrega da minha Compra?',
+    question03:'Posso fazer minha Compra no site e buscar os produtos adquiridos na loja física?',
+    question04:'Posso adicionar outro produto à Compra que eu fiz?',
+    question05:'Não recebi todos os itens da minha Compra.O que devo fazer?',
+    question06:'Posso efetuar uma Compra no site com CNPJ?',
+    question07:'Como faço para confirmar a disponibilidade de um produto no estoque?',
+    question08:'Existe um valor mínimo de pedido?',
+    answer01:'Sim. As informações mais atualizadas sobre sua Compra e a situação de entrega de suaCompra estão disponíveis em "Meus pedidos".Além disso, você será notificado do andamento do seu pedido pelo e-mail cadastrado.',
+    answer02:'As entregas são realizadas exclusivamente pelos Correios.',
+    answer03:'Não. Ao efetuar uma Compra pelo site, você receberá o(s) produto(s) adquirido(s) no endereço informado,por meio dos mecanismos de entrega disponibilizados pela Romapel no site.',
+    answer04:'Não, após finalizada, a Compra não poderá ser alterada.Para adquirir outro produto, você deverá iniciar uma nova Compra.',
+    answer05:'Entre em contato com o nossa loja física pelo telefone(16) 3243-2696 ou pelos outros meios de atendimento disponibilizados.',
+    answer06:'Neste momento, não estamos trabalhando com esta opção. Apenas pessoas físicas podem se cadastrar no site e efetuar Compras.A aquisição de produtos por meio de CNPJ pode ser feito através de nossa página no Facebook @papelariaromapel.',
+    answer07:'No site, se houver carrinho de compras visível no momento da finalização dopedido, significa que há estoque do produto.',
+    answer08:' Não.',
 }
