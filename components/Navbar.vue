@@ -29,6 +29,6 @@ nav img{
 
 .link:hover{
     text-decoration: none;
-    color: indigo;
+    color: #4f1479;
 }
 </style>
