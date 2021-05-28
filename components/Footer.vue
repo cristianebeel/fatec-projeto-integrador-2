@@ -1,6 +1,5 @@
 <template>
-    <footer class="flex justify-center w-full text-white text-xs py-4
-        md:relative md:text-md lg:text-lg xl:text-xl">
+    <footer class="flex justify-center w-full text-white text-xs py-4 md:text-md lg:text-lg xl:text-xl">
         <p>{{$t('romapelAllRights')}}</p>
     </footer>
 </template>
