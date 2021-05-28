@@ -9,7 +9,7 @@ export const state = () => ({
         {titulo: 'Kit Mochila c/ lancheira', preco: '42,00', categoria: 'Escolar', subcategoria: 'Mochila', imagem: require('~/assets/img/produtos/mochila04.jpg')},
         {titulo: 'Pasta L', preco: '1,50', categoria: 'Escolar, ', subcategoria: 'Organizacao', imagem: require('~/assets/img/produtos/pasta01.jpg')},
         {titulo: 'Conjunto 6 pastas finas c/ elástico', preco: '25,00', categoria: 'Escolar, ', subcategoria: 'Organizacao', imagem: require('~/assets/img/produtos/pasta02.jpg')},
-        {titulo: 'Pastas L', preco: '1,50', categoria: 'Escolar, Escritorio', subcategoria: 'Organizacao', imagem: require('~/assets/img/produtos/pasta01.jpg')},
+        {titulo: 'Pasta grossa c/ elástico (un)', preco: '3,50', categoria: 'Escolar, Escritorio', subcategoria: 'Organizacao', imagem: require('~/assets/img/produtos/pasta03.jpg')},
         {titulo: 'Lapiseira 0.7mm + grafite', preco: '8,00', categoria: 'Escolar', subcategoria: 'Escrita', imagem: require('~/assets/img/produtos/lapiseira03.jpg')},
         {titulo: 'Kit c/ 3 lapiseiras 0.9mm', preco: '18,00', categoria: 'Escolar', subcategoria: 'Escrita', imagem: require('~/assets/img/produtos/lapiseira04.jpg')},
         {titulo: 'Tesoura uso geral', preco: '12,00', categoria: 'Escolar, , Arte', subcategoria: 'Papelaria', imagem: require('~/assets/img/produtos/tesoura01.jpg')},
