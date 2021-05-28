@@ -3,8 +3,10 @@
     <Header />
     <Navbar />
     <Nuxt />
-    <Section-Informacoes />
-    <Footer />
+    <div class="rodape">
+      <Section-Informacoes />
+      <Footer />
+    </div>
   </div>
 </template>
 
