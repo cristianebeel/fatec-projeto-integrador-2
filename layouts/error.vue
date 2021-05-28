@@ -1,0 +1,3 @@
+<template>
+  <No-Page />
+</template>
