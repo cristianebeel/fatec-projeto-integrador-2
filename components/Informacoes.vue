@@ -1,8 +1,9 @@
 <template>
     <p>
-        <span v-for="(item, index) of items" :key="index" class="block">
-            {{ item.text }}
-        </span>
+        <nuxt-link v-for="(item, index) of items"
+          :key="index" :to="item.link" class="block">
+            {{ item.texto }}
+        </nuxt-link>
     </p>
 </template>
 
